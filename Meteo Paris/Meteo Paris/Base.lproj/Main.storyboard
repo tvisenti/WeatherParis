@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="U0V-Rn-0c4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BDI-vZ-PG5">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -11,15 +11,15 @@
     </dependencies>
     <scenes>
         <!--Météo Paris-->
-        <scene sceneID="fj4-3z-10L">
+        <scene sceneID="tCi-17-GXh">
             <objects>
-                <tableViewController id="U0V-Rn-0c4" customClass="HomeTableViewController" customModule="Meteo_Paris" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" id="FyN-gT-o0X">
+                <tableViewController id="5ON-GD-Viq" customClass="HomeTableViewController" customModule="Me_te_o_Paris" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="ZrP-ou-gEa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="suH-Zc-yw4">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomeCell" rowHeight="70" id="suH-Zc-yw4" customClass="HomePrototypeCell" customModule="Me_te_o_Paris" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="suH-Zc-yw4" id="GIr-IO-Mtk">
@@ -55,22 +55,59 @@
                                         <constraint firstItem="WsR-r0-cL3" firstAttribute="centerY" secondItem="GIr-IO-Mtk" secondAttribute="centerY" id="nVY-zZ-Sia"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="dayLabelCell" destination="pXT-bW-Y7i" id="XZ9-Da-hJw"/>
+                                    <outlet property="degreeLabelCell" destination="WsR-r0-cL3" id="glo-Ph-3dF"/>
+                                    <outlet property="imageViewCell" destination="Hf5-ME-90J" id="3hW-XH-z2E"/>
+                                    <segue destination="FcQ-OG-xHW" kind="show" id="apJ-DB-vPo"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="U0V-Rn-0c4" id="R0S-A5-QDZ"/>
-                            <outlet property="delegate" destination="U0V-Rn-0c4" id="FWb-Go-5uP"/>
+                            <outlet property="dataSource" destination="5ON-GD-Viq" id="gff-NG-sff"/>
+                            <outlet property="delegate" destination="5ON-GD-Viq" id="iiV-tI-9vk"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Météo Paris" id="Qfe-8T-MZN"/>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-                    <connections>
-                        <outlet property="titleNavigationItem" destination="Qfe-8T-MZN" id="68Q-EL-eXj"/>
-                    </connections>
+                    <navigationItem key="navigationItem" title="Météo Paris" id="Fub-RO-D1S"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Cav-Mr-O9o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="D5m-ql-uji" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="628" y="34.632683658170919"/>
+            <point key="canvasLocation" x="-294" y="70"/>
+        </scene>
+        <!--Détail-->
+        <scene sceneID="AQp-4O-DbW">
+            <objects>
+                <viewController id="FcQ-OG-xHW" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hCH-Ar-neK"/>
+                        <viewControllerLayoutGuide type="bottom" id="K8Y-G9-Wmv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pbq-gN-K6g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Détail" id="5XA-Xn-ZO5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="48B-p1-fCV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="620" y="70"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1cO-qx-L0A">
+            <objects>
+                <navigationController id="BDI-vZ-PG5" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ZRW-uv-uoy">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="5ON-GD-Viq" kind="relationship" relationship="rootViewController" id="WWe-a0-4xc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tT4-QH-vGq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1246" y="70"/>
         </scene>
     </scenes>
 </document>

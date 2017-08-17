@@ -15,6 +15,7 @@
 		4603EFE11F457113009CE94F /* Meteo_ParisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603EFE01F457113009CE94F /* Meteo_ParisTests.swift */; };
 		4603EFEC1F457113009CE94F /* Meteo_ParisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603EFEB1F457113009CE94F /* Meteo_ParisUITests.swift */; };
 		4603EFFC1F4578DB009CE94F /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603EFFB1F4578DB009CE94F /* HomeTableViewController.swift */; };
+		4603EFFE1F457DB4009CE94F /* HomePrototypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603EFFD1F457DB4009CE94F /* HomePrototypeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4603EFEB1F457113009CE94F /* Meteo_ParisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meteo_ParisUITests.swift; sourceTree = "<group>"; };
 		4603EFED1F457113009CE94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4603EFFB1F4578DB009CE94F /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		4603EFFD1F457DB4009CE94F /* HomePrototypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePrototypeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				4603EFCB1F457112009CE94F /* AppDelegate.swift */,
 				4603EFCD1F457112009CE94F /* ViewController.swift */,
 				4603EFFB1F4578DB009CE94F /* HomeTableViewController.swift */,
+				4603EFFD1F457DB4009CE94F /* HomePrototypeCell.swift */,
 				4603EFCF1F457112009CE94F /* Main.storyboard */,
 				4603EFD21F457112009CE94F /* Assets.xcassets */,
 				4603EFD41F457112009CE94F /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4603EFFC1F4578DB009CE94F /* HomeTableViewController.swift in Sources */,
+				4603EFFE1F457DB4009CE94F /* HomePrototypeCell.swift in Sources */,
 				4603EFCE1F457112009CE94F /* ViewController.swift in Sources */,
 				4603EFCC1F457112009CE94F /* AppDelegate.swift in Sources */,
 			);
