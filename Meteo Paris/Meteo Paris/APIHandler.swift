@@ -21,13 +21,12 @@ class Oauth {
 //    var expired_token : Double!
     
     static let sharedInstance = Oauth()
-    var allWeather: AllWeatherInfo = AllWeatherInfo()
 
     private func callAPIWeather() -> URL {
         return URL(string: API_SITE + "forecast?id=" + KEY_CITY + "&appid=" + API_KEY)!
     }
     
-    func getInfoToApi(completionHandler: @escaping (Bool, Error?, AllWeatherInfo?) -> ()) {
+    func getInfoToApi(completionHandler: @escaping (Bool, Error?, [[WeatherInfo]]?) -> ()) {
         
         // voir si on utilise l'ancien call ou si ca fait + de 10min
         
@@ -45,14 +44,14 @@ class Oauth {
                     let dataString = NSString(data: d, encoding: String.Encoding.utf8.rawValue)
                     if let dataFromString = dataString?.data(using: String.Encoding.utf8.rawValue, allowLossyConversion: false) {
                         let weatherInfo = JSON(data: dataFromString)
-                        print(weatherInfo)
                         DispatchQueue.main.async {
                             if weatherInfo.isEmpty == false {
-                                self.allWeather.initWeatherInfo(json: weatherInfo)
-                                completionHandler(true, nil, self.allWeather)
+                                let allWeatherInfo = AllWeatherInfo.sharedInstance.initWeatherInfo(json: weatherInfo)
+                                print(allWeatherInfo)
+                                completionHandler(true, nil, allWeatherInfo)
                             } else {
                                 completionHandler(false, nil, nil)
-                                print("Error, no user has this name")
+                                print("Error")
                             }
                         }
                     }

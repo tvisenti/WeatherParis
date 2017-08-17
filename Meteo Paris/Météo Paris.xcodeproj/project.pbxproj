@@ -20,6 +20,7 @@
 		4603F0021F458759009CE94F /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603F0011F458759009CE94F /* APIHandler.swift */; };
 		4603F0041F4587D6009CE94F /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603F0031F4587D6009CE94F /* WeatherInfo.swift */; };
 		46840EC01F45C0BD00CB857D /* AllWeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46840EBF1F45C0BD00CB857D /* AllWeatherInfo.swift */; };
+		46A5FD461F45F925007E0A46 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5FD451F45F925007E0A46 /* Utils.swift */; };
 		698765D6AB06B4E725D745CE /* Pods_Me_te_o_ParisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50C4E8F5DE36CBE6B87A123 /* Pods_Me_te_o_ParisUITests.framework */; };
 		D9C659687E29330519310E84 /* Pods_Me_te_o_ParisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAB3391C6B7C3FFB3FECDD0 /* Pods_Me_te_o_ParisTests.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		4603F0011F458759009CE94F /* APIHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
 		4603F0031F4587D6009CE94F /* WeatherInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
 		46840EBF1F45C0BD00CB857D /* AllWeatherInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllWeatherInfo.swift; sourceTree = "<group>"; };
+		46A5FD451F45F925007E0A46 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		476A1C27845C3BF20336A51C /* Pods_Me_te_o_Paris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Me_te_o_Paris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B11C3E6D57FC02BC4EADC5B /* Pods-Météo ParisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Météo ParisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Météo ParisUITests/Pods-Météo ParisUITests.release.xcconfig"; sourceTree = "<group>"; };
 		96F09B7E83EB83222860D05F /* Pods-Météo ParisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Météo ParisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Météo ParisTests/Pods-Météo ParisTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				4603EFD41F457112009CE94F /* LaunchScreen.storyboard */,
 				4603EFD71F457112009CE94F /* Info.plist */,
 				46840EBF1F45C0BD00CB857D /* AllWeatherInfo.swift */,
+				46A5FD451F45F925007E0A46 /* Utils.swift */,
 			);
 			path = "Meteo Paris";
 			sourceTree = "<group>";
@@ -455,10 +458,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Météo Paris/Pods-Météo Paris-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -480,6 +485,7 @@
 				46840EC01F45C0BD00CB857D /* AllWeatherInfo.swift in Sources */,
 				4603EFCE1F457112009CE94F /* ViewController.swift in Sources */,
 				4603EFCC1F457112009CE94F /* AppDelegate.swift in Sources */,
+				46A5FD461F45F925007E0A46 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

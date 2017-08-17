@@ -25,12 +25,35 @@ class WeatherInfo {
     func initWeather(json: JSON, dt : [String]) {
         date = dt[0]
         hour = dt[1]
-        main = json["weather"]["main"].stringValue
-        description = json["weather"]["description"].stringValue
-        icon = json["weather"]["icon"].stringValue
-        degree = json["weather"]["main"].stringValue
+        
+        let data = json["weather"].array?.first
+        if let tmpMain = data?["main"].stringValue {
+            main = tmpMain
+        }
+        if let tmpDescription = data?["description"].stringValue {
+            description = tmpDescription
+        }
+        if let tmpIcon = data?["icon"].stringValue {
+            icon = tmpIcon
+        }
+        
+        // Convert kelvin to celsius
+        degree = String(json["main"]["temp"].intValue - 273)
+        
         humidity = json["main"]["humidity"].stringValue
         wind = json["wind"]["speed"].stringValue
+    }
+    
+    func printWeatherInfo() {
+        print("--------------------")
+        print("Date: " + date!)
+        print("Hour: " + hour!)
+        print("Main: " + main!)
+        print("Description: " + description!)
+        print("Icon: " + icon!)
+        print("Degree: " + degree!)
+        print("Humidity: " + humidity!)
+        print("Wind: " + wind!)
     }
 }
 
