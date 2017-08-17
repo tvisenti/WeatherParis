@@ -46,7 +46,7 @@ class HomeTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "HomePrototypeCell") as! HomePrototypeCell
         
         //async
-        cell.imageViewCell?.sd_setImage(with: URL(string: transformToURL(imageUrl: tmpWeather[indexPath.row].icon!)), placeholderImage: UIImage(named: "meteo_icon.png"))
+        cell.imageViewCell?.sd_setImage(with: URL(string: transformToURL(imageUrl: tmpWeather[indexPath.row].icon!)), placeholderImage: UIImage(named: tmpWeather[indexPath.row].icon! + ".png"))
         
         cell.dayLabelCell?.text = tmpWeather[indexPath.row].date
         cell.degreeLabelCell.text = tmpWeather[indexPath.row].degree
