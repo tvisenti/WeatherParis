@@ -13,9 +13,18 @@ class HomeTableViewController: UITableViewController {
     
     @IBOutlet weak var titleNavigationItem: UINavigationItem!
     
+    let oauthApi = Oauth.sharedInstance
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        oauthApi.getInfoToApi { (hasSucceed, error, weather) in
+            if hasSucceed {
+                print("Get Weather Info is a success")
+//                self.performSegue(withIdentifier: "SearchToProfilSegue", sender: self)
+            } else {
+                print("Error (getInfoToApi): \(error)")
+            }
+        }
     }
     
     override func didReceiveMemoryWarning() {
