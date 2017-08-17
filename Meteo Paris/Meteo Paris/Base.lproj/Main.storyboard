@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="U0V-Rn-0c4">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Météo Paris-->
+        <scene sceneID="fj4-3z-10L">
+            <objects>
+                <tableViewController id="U0V-Rn-0c4" customClass="HomeTableViewController" customModule="Meteo_Paris" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="70" sectionHeaderHeight="28" sectionFooterHeight="28" id="FyN-gT-o0X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="70" id="suH-Zc-yw4">
+                                <rect key="frame" x="0.0" y="28" width="375" height="70"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="suH-Zc-yw4" id="GIr-IO-Mtk">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="69"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hf5-ME-90J">
+                                            <rect key="frame" x="161" y="8" width="53" height="53"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="53" id="9HP-eL-eIL"/>
+                                                <constraint firstAttribute="width" constant="53" id="pn3-dJ-u8f"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18*C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsR-r0-cL3">
+                                            <rect key="frame" x="319" y="24" width="38" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXT-bW-Y7i">
+                                            <rect key="frame" x="18" y="24.5" width="35" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="pXT-bW-Y7i" firstAttribute="centerY" secondItem="GIr-IO-Mtk" secondAttribute="centerY" id="0vC-0t-jVF"/>
+                                        <constraint firstItem="Hf5-ME-90J" firstAttribute="centerX" secondItem="GIr-IO-Mtk" secondAttribute="centerX" id="3HA-Uk-wI3"/>
+                                        <constraint firstItem="Hf5-ME-90J" firstAttribute="centerY" secondItem="GIr-IO-Mtk" secondAttribute="centerY" id="Egd-N6-w0y"/>
+                                        <constraint firstAttribute="trailingMargin" secondItem="WsR-r0-cL3" secondAttribute="trailing" constant="10" id="ic6-ns-ORN"/>
+                                        <constraint firstAttribute="leadingMargin" secondItem="pXT-bW-Y7i" secondAttribute="leading" constant="-10" id="j0W-2Q-szE"/>
+                                        <constraint firstItem="WsR-r0-cL3" firstAttribute="centerY" secondItem="GIr-IO-Mtk" secondAttribute="centerY" id="nVY-zZ-Sia"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="U0V-Rn-0c4" id="R0S-A5-QDZ"/>
+                            <outlet property="delegate" destination="U0V-Rn-0c4" id="FWb-Go-5uP"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Météo Paris" id="Qfe-8T-MZN"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="titleNavigationItem" destination="Qfe-8T-MZN" id="68Q-EL-eXj"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cav-Mr-O9o" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="628" y="34.632683658170919"/>
+        </scene>
+    </scenes>
+</document>
