@@ -8,7 +8,6 @@
 
 import Foundation
 import UIKit
-import SDWebImage
 
 class HomeTableViewController: UITableViewController {
     
@@ -53,10 +52,22 @@ class HomeTableViewController: UITableViewController {
         }
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "HomePrototypeCellID") as! HomePrototypeCell
-        cell.imageViewCell?.sd_setImage(with: URL(string: tmpWeather.iconURL!), placeholderImage: UIImage(named: tmpWeather.iconURL!))
+        cell.imageViewCell.image = UIImage(named: tmpWeather.icon!)
         cell.dayLabelCell?.text = tmpWeather.date
         cell.degreeLabelCell.text = tmpWeather.degree
-        
+        cell.degreeNightLabelCell.text = allWeatherInfo[indexPath.row].last?.degree
+        switch tmpWeather.icon! {
+        case "01d":
+            cell.backgroundColor = UIColor(patternImage: UIImage(named: "sun")!)
+        case "09d":
+            cell.backgroundColor = UIColor(patternImage: UIImage(named: "rain")!)
+        case "10d":
+            cell.backgroundColor = UIColor(patternImage: UIImage(named: "rain")!)
+        case "13d":
+            cell.backgroundColor = UIColor(patternImage: UIImage(named: "snow")!)
+        default:
+            cell.backgroundColor = UIColor(patternImage: UIImage(named: "cloud")!)
+        }
         return cell
     }
     
@@ -65,4 +76,9 @@ class HomeTableViewController: UITableViewController {
         detailVC.dayWeatherInfo = allWeatherInfo[indexPath.row]
         navigationController?.pushViewController(detailVC, animated: true)
     }
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return CGFloat(70)
+    }
+    
 }

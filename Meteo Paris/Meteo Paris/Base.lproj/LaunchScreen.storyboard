@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -29,17 +29,9 @@
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" constant="162" id="d6O-3J-7LS"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Météo Paris" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="izT-vd-mGg">
-                                <rect key="frame" x="142" y="189" width="90.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="vOa-Og-pAP" firstAttribute="top" secondItem="izT-vd-mGg" secondAttribute="bottom" constant="42" id="5ay-VO-dzp"/>
-                            <constraint firstItem="izT-vd-mGg" firstAttribute="centerX" secondItem="vOa-Og-pAP" secondAttribute="centerX" id="XLL-NI-7V0"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vOa-Og-pAP" secondAttribute="trailing" constant="18" id="ecv-uX-rNI"/>
                             <constraint firstItem="vOa-Og-pAP" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="erS-Qt-vyW"/>
                             <constraint firstItem="vOa-Og-pAP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="tcq-HU-uK7"/>

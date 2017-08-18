@@ -7,7 +7,6 @@ target 'Météo Paris' do
 
   # Pods for Météo Paris
 	pod 'SwiftyJSON'
-    pod 'SDWebImage'
     
   target 'Météo ParisTests' do
     inherit! :search_paths

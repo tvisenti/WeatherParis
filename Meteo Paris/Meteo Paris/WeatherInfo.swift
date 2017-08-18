@@ -17,7 +17,7 @@ class WeatherInfo {
     var hour : String? = ""
     var main : String? = ""
     var description : String? = ""
-    var iconURL : String? = ""
+    var icon : String? = ""
     var degree : String? = ""
     var humidity : String? = ""
     var wind : String? = ""
@@ -51,14 +51,14 @@ class WeatherInfo {
             weatherInfo.description = tmpDescription
         }
         if let icon = data?["icon"].stringValue {
-            weatherInfo.iconURL = transformToURL(icon: icon)
+            weatherInfo.icon = icon
         }
         
         // Convert kelvin to celsius
         weatherInfo.degree = String(json["main"]["temp"].intValue - 273) + "°C"
         
         weatherInfo.humidity = json["main"]["humidity"].stringValue + "%"
-        weatherInfo.wind = json["wind"]["speed"].stringValue
+        weatherInfo.wind = json["wind"]["speed"].stringValue + " m/s"
         return (weatherInfo)
     }
     
@@ -72,7 +72,7 @@ class WeatherInfo {
         print("Hour: " + hour!)
         print("Main: " + main!)
         print("Description: " + description!)
-        print("Icon: " + iconURL!)
+        print("Icon: " + icon!)
         print("Degree: " + degree!)
         print("Humidity: " + humidity!)
         print("Wind: " + wind!)

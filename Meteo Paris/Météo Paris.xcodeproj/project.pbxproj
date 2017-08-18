@@ -10,7 +10,6 @@
 		2D3874A5AFE4FCCB25A51ED1 /* Pods_Me_te_o_Paris.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476A1C27845C3BF20336A51C /* Pods_Me_te_o_Paris.framework */; };
 		4603EFCC1F457112009CE94F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603EFCB1F457112009CE94F /* AppDelegate.swift */; };
 		4603EFD11F457112009CE94F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4603EFCF1F457112009CE94F /* Main.storyboard */; };
-		4603EFD31F457112009CE94F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4603EFD21F457112009CE94F /* Assets.xcassets */; };
 		4603EFD61F457112009CE94F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4603EFD41F457112009CE94F /* LaunchScreen.storyboard */; };
 		4603EFE11F457113009CE94F /* Meteo_ParisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603EFE01F457113009CE94F /* Meteo_ParisTests.swift */; };
 		4603EFEC1F457113009CE94F /* Meteo_ParisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4603EFEB1F457113009CE94F /* Meteo_ParisUITests.swift */; };
@@ -22,6 +21,7 @@
 		46A5FD461F45F925007E0A46 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5FD451F45F925007E0A46 /* Utils.swift */; };
 		46DA8C571F46CEBA009170C6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA8C561F46CEBA009170C6 /* DetailViewController.swift */; };
 		46DA8C591F46EF0B009170C6 /* DetailPrototypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA8C581F46EF0B009170C6 /* DetailPrototypeCell.swift */; };
+		46DA8C5B1F4729D0009170C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46DA8C5A1F4729D0009170C6 /* Assets.xcassets */; };
 		698765D6AB06B4E725D745CE /* Pods_Me_te_o_ParisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50C4E8F5DE36CBE6B87A123 /* Pods_Me_te_o_ParisUITests.framework */; };
 		D9C659687E29330519310E84 /* Pods_Me_te_o_ParisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAB3391C6B7C3FFB3FECDD0 /* Pods_Me_te_o_ParisTests.framework */; };
 /* End PBXBuildFile section */
@@ -48,7 +48,6 @@
 		4603EFC81F457112009CE94F /* Météo Paris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Météo Paris.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4603EFCB1F457112009CE94F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4603EFD01F457112009CE94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4603EFD21F457112009CE94F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4603EFD51F457112009CE94F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4603EFD71F457112009CE94F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4603EFDC1F457113009CE94F /* Météo ParisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Météo ParisTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +64,7 @@
 		46A5FD451F45F925007E0A46 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		46DA8C561F46CEBA009170C6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		46DA8C581F46EF0B009170C6 /* DetailPrototypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPrototypeCell.swift; sourceTree = "<group>"; };
+		46DA8C5A1F4729D0009170C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		476A1C27845C3BF20336A51C /* Pods_Me_te_o_Paris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Me_te_o_Paris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B11C3E6D57FC02BC4EADC5B /* Pods-Météo ParisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Météo ParisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Météo ParisUITests/Pods-Météo ParisUITests.release.xcconfig"; sourceTree = "<group>"; };
 		96F09B7E83EB83222860D05F /* Pods-Météo ParisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Météo ParisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Météo ParisTests/Pods-Météo ParisTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -150,7 +150,7 @@
 				4603F0031F4587D6009CE94F /* WeatherInfo.swift */,
 				46A5FD451F45F925007E0A46 /* Utils.swift */,
 				4603EFD71F457112009CE94F /* Info.plist */,
-				4603EFD21F457112009CE94F /* Assets.xcassets */,
+				46DA8C5A1F4729D0009170C6 /* Assets.xcassets */,
 			);
 			path = "Meteo Paris";
 			sourceTree = "<group>";
@@ -303,7 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4603EFD61F457112009CE94F /* LaunchScreen.storyboard in Resources */,
-				4603EFD31F457112009CE94F /* Assets.xcassets in Resources */,
+				46DA8C5B1F4729D0009170C6 /* Assets.xcassets in Resources */,
 				4603EFD11F457112009CE94F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

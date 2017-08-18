@@ -14,6 +14,7 @@ class DetailPrototypeCell: UITableViewCell {
     @IBOutlet weak var hourLabelCell: UILabel!
     @IBOutlet weak var imageViewCell: UIImageView!
     @IBOutlet weak var degreeLabelCell: UILabel!
+    @IBOutlet weak var degreeNightLabelCell: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

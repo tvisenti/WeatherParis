@@ -46,7 +46,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     private func setWeather() {
-        imageView.sd_setImage(with: URL(string: actualWeather.iconURL!), placeholderImage: UIImage(named: actualWeather.iconURL!))
+        imageView.image = UIImage(named: actualWeather.icon!)
         hourLabel.text = actualWeather.hour
         degreeLabel.text = actualWeather.degree
         mainLabel.text = actualWeather.main
@@ -68,11 +68,16 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         let tmpWeather = dayWeatherInfo[indexPath.row]
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "DetailPrototypeCellID") as! DetailPrototypeCell
-        cell.imageViewCell?.sd_setImage(with: URL(string: tmpWeather.iconURL!), placeholderImage: UIImage(named: tmpWeather.iconURL!))
+        cell.imageViewCell.image = UIImage(named: tmpWeather.icon!)
         cell.hourLabelCell?.text = tmpWeather.hour
         cell.degreeLabelCell.text = tmpWeather.degree
-        
+        cell.degreeNightLabelCell.text = dayWeatherInfo.last?.degree
+
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return CGFloat(70)
     }
     
 }
