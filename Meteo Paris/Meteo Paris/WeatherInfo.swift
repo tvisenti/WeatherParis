@@ -13,35 +13,52 @@ class WeatherInfo {
     
     static let sharedInstance = WeatherInfo()
     
-    var date : String?
-    var hour : String?
-    var main : String?
-    var description : String?
-    var icon : String?
-    var degree : String?
-    var humidity : String?
-    var wind : String?
+    var date : String? = ""
+    var hour : String? = ""
+    var main : String? = ""
+    var description : String? = ""
+    var icon : String? = ""
+    var degree : String? = ""
+    var humidity : String? = ""
+    var wind : String? = ""
     
-    func initWeather(json: JSON, dt : [String]) {
-        date = dt[0]
-        hour = dt[1]
+    func substringDate(fullDate : String) -> String {
+        var tmpDate : String = ""
+        let indexDay = fullDate.index(fullDate.startIndex, offsetBy: 8)
+        tmpDate = fullDate.substring(from: indexDay)
+        
+        print (tmpDate)
+        let start = fullDate.index(fullDate.startIndex, offsetBy: 5)
+        let end = fullDate.index(fullDate.endIndex, offsetBy: -3)
+        let range = start..<end
+        
+        tmpDate += "/" + fullDate.substring(with: range)
+        print (tmpDate)
+        return tmpDate
+    }
+    
+    func initWeather(json: JSON, dt : [String]) -> WeatherInfo {
+        let weatherInfo = WeatherInfo()
+        weatherInfo.date = substringDate(fullDate: dt[0])
+        weatherInfo.hour = dt[1].substring(to: dt[1].index(dt[1].startIndex, offsetBy: 5))
         
         let data = json["weather"].array?.first
         if let tmpMain = data?["main"].stringValue {
-            main = tmpMain
+            weatherInfo.main = tmpMain
         }
         if let tmpDescription = data?["description"].stringValue {
-            description = tmpDescription
+            weatherInfo.description = tmpDescription
         }
         if let tmpIcon = data?["icon"].stringValue {
-            icon = tmpIcon
+            weatherInfo.icon = tmpIcon
         }
         
         // Convert kelvin to celsius
-        degree = String(json["main"]["temp"].intValue - 273)
+        weatherInfo.degree = String(json["main"]["temp"].intValue - 273) + "°C"
         
-        humidity = json["main"]["humidity"].stringValue
-        wind = json["wind"]["speed"].stringValue
+        weatherInfo.humidity = json["main"]["humidity"].stringValue + "%"
+        weatherInfo.wind = json["wind"]["speed"].stringValue
+        return (weatherInfo)
     }
     
     func printWeatherInfo() {

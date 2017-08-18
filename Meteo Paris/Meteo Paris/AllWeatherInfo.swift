@@ -15,15 +15,15 @@ class AllWeatherInfo {
     
     var groupWeather = [[WeatherInfo]]()
     var tmpWeather: WeatherInfo = WeatherInfo()
+    var tmpGroupWeather = [WeatherInfo]()
 
     func initWeatherInfo(json: JSON) -> [[WeatherInfo]] {
         print(json)
-        var tmpGroupWeather = [WeatherInfo]()
         
         if let lst = json["list"].array {
             for list in lst {
                 if let date = list["dt_txt"].string?.components(separatedBy: " ") {
-                    tmpWeather.initWeather(json: list, dt: date)
+                    tmpWeather = WeatherInfo.sharedInstance.initWeather(json: list, dt: date)
                     tmpWeather.printWeatherInfo()
                     if tmpGroupWeather.isEmpty {
                         tmpGroupWeather.append(tmpWeather)
@@ -37,8 +37,6 @@ class AllWeatherInfo {
                 }
             }
         }
-        print(tmpGroupWeather)
-        print(groupWeather)
         return groupWeather
     }
 }

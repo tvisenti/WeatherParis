@@ -24,9 +24,8 @@ class HomeTableViewController: UITableViewController {
                 print("Get Weather Info is a success")
                 self.allWeatherInfo = weather!
                 self.tableView.reloadData()
-//                self.performSegue(withIdentifier: "SearchToProfilSegue", sender: self)
             } else {
-                print("Error (getInfoToApi): \(error)")
+                print("Error (viewDidLoad/getInfoToApi)")
             }
         }
     }
@@ -37,19 +36,29 @@ class HomeTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        print(allWeatherInfo.count)
         return allWeatherInfo.count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let tmpWeather = allWeatherInfo[indexPath.row]
+        var tmpWeather = WeatherInfo()
+        
+        // Get 12h00 if exist or first hour
+        for weather in allWeatherInfo[indexPath.row] {
+            if weather.hour == "12:00:00" {
+                tmpWeather = weather
+            }
+        }
+        if tmpWeather.hour == "" {
+            tmpWeather = allWeatherInfo[indexPath.row].first!
+        }
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "HomePrototypeCell") as! HomePrototypeCell
         
         //async
-        cell.imageViewCell?.sd_setImage(with: URL(string: transformToURL(imageUrl: tmpWeather[indexPath.row].icon!)), placeholderImage: UIImage(named: tmpWeather[indexPath.row].icon! + ".png"))
+        cell.imageViewCell?.sd_setImage(with: URL(string: transformToURL(imageUrl: tmpWeather.icon!)), placeholderImage: UIImage(named: tmpWeather.icon! + ".png"))
         
-        cell.dayLabelCell?.text = tmpWeather[indexPath.row].date
-        cell.degreeLabelCell.text = tmpWeather[indexPath.row].degree
+        cell.dayLabelCell?.text = tmpWeather.date
+        cell.degreeLabelCell.text = tmpWeather.degree
         return cell
     }
         

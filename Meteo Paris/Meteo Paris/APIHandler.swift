@@ -47,11 +47,10 @@ class Oauth {
                         DispatchQueue.main.async {
                             if weatherInfo.isEmpty == false {
                                 let allWeatherInfo = AllWeatherInfo.sharedInstance.initWeatherInfo(json: weatherInfo)
-                                print(allWeatherInfo)
                                 completionHandler(true, nil, allWeatherInfo)
                             } else {
                                 completionHandler(false, nil, nil)
-                                print("Error")
+                                print("Error (getInfoToApi)")
                             }
                         }
                     }
