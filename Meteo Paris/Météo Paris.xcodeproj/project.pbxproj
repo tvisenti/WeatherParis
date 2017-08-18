@@ -21,6 +21,7 @@
 		46840EC01F45C0BD00CB857D /* AllWeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46840EBF1F45C0BD00CB857D /* AllWeatherInfo.swift */; };
 		46A5FD461F45F925007E0A46 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A5FD451F45F925007E0A46 /* Utils.swift */; };
 		46DA8C571F46CEBA009170C6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA8C561F46CEBA009170C6 /* DetailViewController.swift */; };
+		46DA8C591F46EF0B009170C6 /* DetailPrototypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA8C581F46EF0B009170C6 /* DetailPrototypeCell.swift */; };
 		698765D6AB06B4E725D745CE /* Pods_Me_te_o_ParisUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50C4E8F5DE36CBE6B87A123 /* Pods_Me_te_o_ParisUITests.framework */; };
 		D9C659687E29330519310E84 /* Pods_Me_te_o_ParisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FAB3391C6B7C3FFB3FECDD0 /* Pods_Me_te_o_ParisTests.framework */; };
 /* End PBXBuildFile section */
@@ -63,6 +64,7 @@
 		46840EBF1F45C0BD00CB857D /* AllWeatherInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllWeatherInfo.swift; sourceTree = "<group>"; };
 		46A5FD451F45F925007E0A46 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		46DA8C561F46CEBA009170C6 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		46DA8C581F46EF0B009170C6 /* DetailPrototypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPrototypeCell.swift; sourceTree = "<group>"; };
 		476A1C27845C3BF20336A51C /* Pods_Me_te_o_Paris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Me_te_o_Paris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B11C3E6D57FC02BC4EADC5B /* Pods-Météo ParisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Météo ParisUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Météo ParisUITests/Pods-Météo ParisUITests.release.xcconfig"; sourceTree = "<group>"; };
 		96F09B7E83EB83222860D05F /* Pods-Météo ParisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Météo ParisTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Météo ParisTests/Pods-Météo ParisTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -136,18 +138,19 @@
 		4603EFCA1F457112009CE94F /* Meteo Paris */ = {
 			isa = PBXGroup;
 			children = (
+				4603EFD41F457112009CE94F /* LaunchScreen.storyboard */,
+				4603EFCF1F457112009CE94F /* Main.storyboard */,
 				4603EFCB1F457112009CE94F /* AppDelegate.swift */,
 				4603EFFB1F4578DB009CE94F /* HomeTableViewController.swift */,
 				4603EFFD1F457DB4009CE94F /* HomePrototypeCell.swift */,
 				46DA8C561F46CEBA009170C6 /* DetailViewController.swift */,
+				46DA8C581F46EF0B009170C6 /* DetailPrototypeCell.swift */,
 				4603F0011F458759009CE94F /* APIHandler.swift */,
-				4603F0031F4587D6009CE94F /* WeatherInfo.swift */,
-				4603EFCF1F457112009CE94F /* Main.storyboard */,
-				4603EFD21F457112009CE94F /* Assets.xcassets */,
-				4603EFD41F457112009CE94F /* LaunchScreen.storyboard */,
-				4603EFD71F457112009CE94F /* Info.plist */,
 				46840EBF1F45C0BD00CB857D /* AllWeatherInfo.swift */,
+				4603F0031F4587D6009CE94F /* WeatherInfo.swift */,
 				46A5FD451F45F925007E0A46 /* Utils.swift */,
+				4603EFD71F457112009CE94F /* Info.plist */,
+				4603EFD21F457112009CE94F /* Assets.xcassets */,
 			);
 			path = "Meteo Paris";
 			sourceTree = "<group>";
@@ -481,6 +484,7 @@
 				46DA8C571F46CEBA009170C6 /* DetailViewController.swift in Sources */,
 				4603EFFC1F4578DB009CE94F /* HomeTableViewController.swift in Sources */,
 				4603EFFE1F457DB4009CE94F /* HomePrototypeCell.swift in Sources */,
+				46DA8C591F46EF0B009170C6 /* DetailPrototypeCell.swift in Sources */,
 				4603F0041F4587D6009CE94F /* WeatherInfo.swift in Sources */,
 				4603F0021F458759009CE94F /* APIHandler.swift in Sources */,
 				46840EC01F45C0BD00CB857D /* AllWeatherInfo.swift in Sources */,

@@ -19,7 +19,6 @@ class AllWeatherInfo {
 
     func initWeatherInfo(json: JSON) -> [[WeatherInfo]] {
         print(json)
-        
         if let lst = json["list"].array {
             for list in lst {
                 if let date = list["dt_txt"].string?.components(separatedBy: " ") {

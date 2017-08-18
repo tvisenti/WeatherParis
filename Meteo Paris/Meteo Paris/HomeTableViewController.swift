@@ -44,7 +44,7 @@ class HomeTableViewController: UITableViewController {
         
         // Get 12h00 if exist or first hour
         for weather in allWeatherInfo[indexPath.row] {
-            if weather.hour == "12:00:00" {
+            if weather.hour == "12:00" {
                 tmpWeather = weather
             }
         }
@@ -52,17 +52,17 @@ class HomeTableViewController: UITableViewController {
             tmpWeather = allWeatherInfo[indexPath.row].first!
         }
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "HomePrototypeCell") as! HomePrototypeCell
-        
-        //async
-        cell.imageViewCell?.sd_setImage(with: URL(string: transformToURL(imageUrl: tmpWeather.icon!)), placeholderImage: UIImage(named: tmpWeather.icon! + ".png"))
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: "HomePrototypeCellID") as! HomePrototypeCell
+        cell.imageViewCell?.sd_setImage(with: URL(string: tmpWeather.iconURL!), placeholderImage: UIImage(named: tmpWeather.iconURL!))
         cell.dayLabelCell?.text = tmpWeather.date
         cell.degreeLabelCell.text = tmpWeather.degree
+        
         return cell
     }
-        
-    func transformToURL(imageUrl : String) -> String {
-        return ("https://openweathermap.org/img/w/" + imageUrl + ".png")
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detailVC = storyboard?.instantiateViewController(withIdentifier: "DetailViewControllerID") as! DetailViewController
+        detailVC.dayWeatherInfo = allWeatherInfo[indexPath.row]
+        navigationController?.pushViewController(detailVC, animated: true)
     }
 }
