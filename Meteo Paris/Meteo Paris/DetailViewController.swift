@@ -40,6 +40,9 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         
         navigationItemTitle.title = "Date: " + actualWeather.date!
         
+        // Hide empty cell on tableView
+        tableView.tableFooterView = UIView()
+        
         tableView.delegate = self
         tableView.dataSource = self
     }

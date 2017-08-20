@@ -16,7 +16,7 @@ class ErrorTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        errorLabelCell.text = "Erreur de réseau"
+        errorLabelCell.text = "Network error"
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

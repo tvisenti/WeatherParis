@@ -30,7 +30,7 @@ class HomeTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        titleNavigationItem.title = "Meteo Paris"
+        titleNavigationItem.title = "Weather Paris"
         
         // Hide empty cell on tableView
         tableView.tableFooterView = UIView()
