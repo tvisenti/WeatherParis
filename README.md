@@ -1,6 +1,3 @@
-#### WeatherParis
-Personnel - iOS Project #02
-
 ## Objectifs
 
 Le but est de créer une application météo sur 5 jours en utilisant l'API d'OpenWeatherMap (http://openweathermap.org/).
