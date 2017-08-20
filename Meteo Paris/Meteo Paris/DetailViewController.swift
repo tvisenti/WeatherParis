@@ -71,7 +71,7 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         cell.imageViewCell.image = UIImage(named: tmpWeather.icon!)
         cell.hourLabelCell?.text = tmpWeather.hour
         cell.degreeLabelCell.text = tmpWeather.degree
-        cell.degreeNightLabelCell.text = dayWeatherInfo.last?.degree
+        cell.backgroundColor = UIColor.changeBackgroundColor(icon: tmpWeather.icon!)
 
         return cell
     }
