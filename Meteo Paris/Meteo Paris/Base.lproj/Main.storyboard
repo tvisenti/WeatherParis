@@ -1,48 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BDI-vZ-PG5">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Météo Paris-->
+        <!--Meteo Paris-->
         <scene sceneID="tCi-17-GXh">
             <objects>
-                <tableViewController id="5ON-GD-Viq" customClass="HomeTableViewController" customModule="Me_te_o_Paris" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="5ON-GD-Viq" customClass="HomeTableViewController" customModule="Meteo_Paris" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" id="ZrP-ou-gEa">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomePrototypeCellID" rowHeight="60" id="suH-Zc-yw4" customClass="HomePrototypeCell" customModule="Me_te_o_Paris" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="375" height="60"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HomePrototypeCellID" rowHeight="70" id="suH-Zc-yw4" customClass="HomePrototypeCell" customModule="Meteo_Paris" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="suH-Zc-yw4" id="GIr-IO-Mtk">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hf5-ME-90J">
-                                            <rect key="frame" x="165" y="7" width="45" height="45"/>
+                                            <rect key="frame" x="165" y="12.5" width="45" height="45"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="45" id="9HP-eL-eIL"/>
                                                 <constraint firstAttribute="width" constant="45" id="pn3-dJ-u8f"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18°C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WsR-r0-cL3">
-                                            <rect key="frame" x="241" y="18" width="43" height="24"/>
+                                            <rect key="frame" x="241" y="23" width="43" height="24"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pXT-bW-Y7i">
-                                            <rect key="frame" x="28" y="18" width="35.5" height="24"/>
+                                            <rect key="frame" x="28" y="23" width="35.5" height="24"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12°C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Cx-xc-orf">
-                                            <rect key="frame" x="304" y="18" width="42.5" height="24"/>
+                                            <rect key="frame" x="304" y="23" width="42.5" height="24"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleTitle3"/>
                                             <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                             <nil key="highlightedColor"/>
@@ -72,7 +76,7 @@
                             <outlet property="delegate" destination="5ON-GD-Viq" id="iiV-tI-9vk"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Météo Paris" id="Fub-RO-D1S"/>
+                    <navigationItem key="navigationItem" title="Meteo Paris" id="Fub-RO-D1S"/>
                     <connections>
                         <outlet property="titleNavigationItem" destination="Fub-RO-D1S" id="U6k-by-JVL"/>
                     </connections>
@@ -84,7 +88,7 @@
         <!--Detail View Controller-->
         <scene sceneID="AQp-4O-DbW">
             <objects>
-                <viewController storyboardIdentifier="DetailViewControllerID" title="Detail View Controller" id="FcQ-OG-xHW" customClass="DetailViewController" customModule="Me_te_o_Paris" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailViewControllerID" title="Detail View Controller" id="FcQ-OG-xHW" customClass="DetailViewController" customModule="Meteo_Paris" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="hCH-Ar-neK"/>
                         <viewControllerLayoutGuide type="bottom" id="K8Y-G9-Wmv"/>
@@ -147,11 +151,11 @@
                                 <rect key="frame" x="0.0" y="220" width="375" height="447"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DetailPrototypeCellID" rowHeight="60" id="UoA-cP-wMk" customClass="DetailPrototypeCell" customModule="Me_te_o_Paris" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DetailPrototypeCellID" rowHeight="60" id="UoA-cP-wMk" customClass="DetailPrototypeCell" customModule="Meteo_Paris" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="60"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="UoA-cP-wMk" id="tfu-fb-uzY">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="59.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OCE-dU-9Zp">

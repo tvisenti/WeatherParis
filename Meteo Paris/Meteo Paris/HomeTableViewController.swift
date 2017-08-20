@@ -30,6 +30,8 @@ class HomeTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        titleNavigationItem.title = "Meteo Paris"
+        
         // Hide empty cell on tableView
         tableView.tableFooterView = UIView()
         
@@ -37,6 +39,7 @@ class HomeTableViewController: UITableViewController {
         tableView.register(UINib.init(nibName: "LoadingTableViewCell", bundle: nil), forCellReuseIdentifier: "LoadingTableViewCell")
         tableView.register(UINib.init(nibName: "ErrorTableViewCell", bundle: nil), forCellReuseIdentifier: "ErrorTableViewCell")
         
+        // Pull to refresh init
         self.refreshController.addTarget(self, action: #selector(HomeTableViewController.doRefresh), for: .valueChanged)
         tableView.addSubview(self.refreshController)
         
@@ -53,11 +56,12 @@ class HomeTableViewController: UITableViewController {
             if hasSucceed {
                 // Timer for 10 minutes
                 if !self.timer.isValid {
+                    print("Get Weather Info is a success")
                     self.timer = Timer.new(every: 10.minutes) {
                         print(self.timer.isValid)
                     }
                     self.timer.start()
-                    print("Get Weather Info is a success")
+                    
                     self.allWeatherInfo = weather!
                     self.homeCell = .Home
                     self.refreshController.endRefreshing()
@@ -68,9 +72,9 @@ class HomeTableViewController: UITableViewController {
                     self.tableView.reloadData()
                 }
             } else {
+                print("Error (viewDidLoad/getInfoToApi)")
                 self.homeCell = .Error
                 self.refreshController.endRefreshing()
-                print("Error (viewDidLoad/getInfoToApi)")
             }
         }
     }
@@ -135,7 +139,7 @@ extension HomeTableViewController {
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         if homeCell == .Home {
-            return CGFloat(70)
+            return CGFloat((UIScreen.main.bounds.height - 64) / 5)
         } else {
             return UIScreen.main.bounds.height
         }

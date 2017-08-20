@@ -26,7 +26,7 @@ class AllWeatherInfo {
                     tmpWeather.printWeatherInfo()
                     if tmpGroupWeather.isEmpty {
                         tmpGroupWeather.append(tmpWeather)
-                    } else if date[1] != "06:00:00" {
+                    } else if date[1] != "06:00:00" { // Change day if it's 6.00 AM
                         tmpGroupWeather.append(tmpWeather)
                     } else {
                         groupWeather.append(tmpGroupWeather)

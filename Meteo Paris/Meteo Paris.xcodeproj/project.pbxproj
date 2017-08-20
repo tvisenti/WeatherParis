@@ -291,6 +291,7 @@
 				TargetAttributes = {
 					4603EFC71F457112009CE94F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 999A8339G6;
 						ProvisioningStyle = Automatic;
 					};
 					4603EFDB1F457113009CE94F = {
@@ -676,6 +677,7 @@
 			baseConfigurationReference = 415E0AB66C6E9CFA839130B3 /* Pods-Météo Paris.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 999A8339G6;
 				INFOPLIST_FILE = "Meteo Paris/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vp.tvisenti.Meteo-Paris";
@@ -689,6 +691,7 @@
 			baseConfigurationReference = EACB309BA0D6EC42BDD5C881 /* Pods-Météo Paris.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 999A8339G6;
 				INFOPLIST_FILE = "Meteo Paris/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.vp.tvisenti.Meteo-Paris";

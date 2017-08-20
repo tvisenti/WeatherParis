@@ -11,9 +11,6 @@ import UIKit
 
 class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var dayWeatherInfo = [WeatherInfo]()
-    var actualWeather = WeatherInfo()
-    
     @IBOutlet weak var navigationItemTitle: UINavigationItem!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var hourLabel: UILabel!
@@ -24,8 +21,13 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
     
+    var dayWeatherInfo = [WeatherInfo]()
+    var actualWeather = WeatherInfo()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Display weather of 12.00 AM at first
         for weather in dayWeatherInfo {
             if weather.hour == "12:00" {
                 actualWeather = weather
@@ -35,9 +37,11 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
             actualWeather = dayWeatherInfo.first!
         }
         setWeather()
+        
+        navigationItemTitle.title = "Date: " + actualWeather.date!
+        
         tableView.delegate = self
         tableView.dataSource = self
-        navigationItemTitle.title = "Date: " + actualWeather.date!
     }
     
     override func didReceiveMemoryWarning() {
@@ -50,8 +54,8 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
         hourLabel.text = actualWeather.hour
         degreeLabel.text = actualWeather.degree
         mainLabel.text = actualWeather.main
-        humidityLabel.text = "Humidité: " + actualWeather.humidity!
-        windLabel.text = "Vent: " + actualWeather.wind!
+        humidityLabel.text = "Humidity: " + actualWeather.humidity!
+        windLabel.text = "Wind: " + actualWeather.wind!
         descriptionLabel.text = "Description: " + actualWeather.description!
     }
     

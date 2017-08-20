@@ -1,0 +1,42 @@
+
+/* Class = "UINavigationItem"; title = "Détail"; ObjectID = "5XA-Xn-ZO5"; */
+"5XA-Xn-ZO5.title" = "Détail";
+
+/* Class = "UILabel"; text = "12°C"; ObjectID = "6Cx-xc-orf"; */
+"6Cx-xc-orf.text" = "12°C";
+
+/* Class = "UIViewController"; title = "Detail View Controller"; ObjectID = "FcQ-OG-xHW"; */
+"FcQ-OG-xHW.title" = "Detail View Controller";
+
+/* Class = "UINavigationItem"; title = "Météo Paris"; ObjectID = "Fub-RO-D1S"; */
+"Fub-RO-D1S.title" = "Météo Paris";
+
+/* Class = "UILabel"; text = "Hour"; ObjectID = "OCE-dU-9Zp"; */
+"OCE-dU-9Zp.text" = "Hour";
+
+/* Class = "UILabel"; text = "Wind"; ObjectID = "OgX-GC-9Bi"; */
+"OgX-GC-9Bi.text" = "Wind";
+
+/* Class = "UILabel"; text = "18°C"; ObjectID = "WsR-r0-cL3"; */
+"WsR-r0-cL3.text" = "18°C";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "aav-Nf-zY3"; */
+"aav-Nf-zY3.text" = "Description";
+
+/* Class = "UILabel"; text = "Hour"; ObjectID = "gAa-V1-Isq"; */
+"gAa-V1-Isq.text" = "Hour";
+
+/* Class = "UILabel"; text = "Main"; ObjectID = "gIk-AB-uZc"; */
+"gIk-AB-uZc.text" = "Main";
+
+/* Class = "UILabel"; text = "Degree"; ObjectID = "jMj-Jw-Iwu"; */
+"jMj-Jw-Iwu.text" = "Degree";
+
+/* Class = "UILabel"; text = "Day"; ObjectID = "pXT-bW-Y7i"; */
+"pXT-bW-Y7i.text" = "Day";
+
+/* Class = "UILabel"; text = "Humidity"; ObjectID = "s6G-dW-r5x"; */
+"s6G-dW-r5x.text" = "Humidity";
+
+/* Class = "UILabel"; text = "18°C"; ObjectID = "sNv-JG-OCI"; */
+"sNv-JG-OCI.text" = "18°C";

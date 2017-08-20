@@ -12,7 +12,7 @@ import SwiftyJSON
 
 class Oauth {
     
-    let KEY_CITY = "6455259"
+    let KEY_CITY = "6455259" // Paris
     let API_KEY = "f0b817cd450a59cc9e829a8aea337c61"
     let API_SITE = "https://api.openweathermap.org/data/2.5/"
     
@@ -43,8 +43,8 @@ class Oauth {
                                 let allWeatherInfo = AllWeatherInfo.sharedInstance.initWeatherInfo(json: weatherInfo)
                                 completionHandler(true, nil, allWeatherInfo)
                             } else {
-                                completionHandler(false, nil, nil)
                                 print("Error (getInfoToApi)")
+                                completionHandler(false, nil, nil)
                             }
                         }
                     }

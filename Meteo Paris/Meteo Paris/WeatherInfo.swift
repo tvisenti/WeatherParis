@@ -22,24 +22,11 @@ class WeatherInfo {
     var humidity : String? = ""
     var wind : String? = ""
     
-    // Reverse date for french reading
-    func substringDate(fullDate : String) -> String {
-        var tmpDate : String = ""
-        
-        let indexDay = fullDate.index(fullDate.startIndex, offsetBy: 8)
-        tmpDate = fullDate.substring(from: indexDay)
-        
-        let start = fullDate.index(fullDate.startIndex, offsetBy: 5)
-        let end = fullDate.index(fullDate.endIndex, offsetBy: -3)
-        let range = start..<end
-        tmpDate += "/" + fullDate.substring(with: range)
-        
-        return tmpDate
-    }
-    
     func initWeather(json: JSON, dt : [String]) -> WeatherInfo {
         let weatherInfo = WeatherInfo()
+        
         weatherInfo.date = substringDate(fullDate: dt[0])
+        
         // Get only hours and minutes
         weatherInfo.hour = dt[1].substring(to: dt[1].index(dt[1].startIndex, offsetBy: 5))
         
@@ -54,12 +41,26 @@ class WeatherInfo {
             weatherInfo.icon = icon
         }
         
-        // Convert kelvin to celsius
+        // Convert kelvin to celsius (-273)
         weatherInfo.degree = String(json["main"]["temp"].intValue - 273) + "°C"
-        
         weatherInfo.humidity = json["main"]["humidity"].stringValue + "%"
         weatherInfo.wind = json["wind"]["speed"].stringValue + " m/s"
         return (weatherInfo)
+    }
+    
+    // Reverse date for french reading
+    func substringDate(fullDate : String) -> String {
+        var tmpDate : String = ""
+        
+        let indexDay = fullDate.index(fullDate.startIndex, offsetBy: 8)
+        tmpDate = fullDate.substring(from: indexDay)
+        
+        let start = fullDate.index(fullDate.startIndex, offsetBy: 5)
+        let end = fullDate.index(fullDate.endIndex, offsetBy: -3)
+        let range = start..<end
+        tmpDate += "/" + fullDate.substring(with: range)
+        
+        return tmpDate
     }
     
     func transformToURL(icon : String) -> String {
