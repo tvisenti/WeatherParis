@@ -7,6 +7,8 @@ target 'Météo Paris' do
 
   # Pods for Météo Paris
 	pod 'SwiftyJSON'
+    pod 'SwiftyTimer'
+    pod 'RainyRefreshControl'
     
   target 'Météo ParisTests' do
     inherit! :search_paths

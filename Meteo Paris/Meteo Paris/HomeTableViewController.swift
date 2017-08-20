@@ -8,6 +8,8 @@
 
 import Foundation
 import UIKit
+import SwiftyTimer
+import RainyRefreshControl
 
 enum HomeCell {
     case Loading
@@ -22,7 +24,9 @@ class HomeTableViewController: UITableViewController {
     let oauthApi = Oauth.sharedInstance
     var allWeatherInfo = [[WeatherInfo]]()
     var homeCell : HomeCell = .Loading
-    
+    var timer : Timer = Timer()
+    let refreshController = RainyRefreshControl()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -33,23 +37,52 @@ class HomeTableViewController: UITableViewController {
         tableView.register(UINib.init(nibName: "LoadingTableViewCell", bundle: nil), forCellReuseIdentifier: "LoadingTableViewCell")
         tableView.register(UINib.init(nibName: "ErrorTableViewCell", bundle: nil), forCellReuseIdentifier: "ErrorTableViewCell")
         
-        oauthApi.getInfoToApi { (hasSucceed, error, weather) in
-            if hasSucceed {
-                print("Get Weather Info is a success")
-                self.allWeatherInfo = weather!
-                self.homeCell = .Home
-                self.tableView.reloadData()
-            } else {
-                self.homeCell = .Error
-                print("Error (viewDidLoad/getInfoToApi)")
-            }
-        }
+        self.refreshController.addTarget(self, action: #selector(HomeTableViewController.doRefresh), for: .valueChanged)
+        tableView.addSubview(self.refreshController)
+        
+        getInfoToApi()
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    private func getInfoToApi() {
+        oauthApi.getInfoToApi { (hasSucceed, error, weather) in
+            if hasSucceed {
+                // Timer for 10 minutes
+                if !self.timer.isValid {
+                    self.timer = Timer.new(every: 10.minutes) {
+                        print(self.timer.isValid)
+                    }
+                    self.timer.start()
+                    print("Get Weather Info is a success")
+                    self.allWeatherInfo = weather!
+                    self.homeCell = .Home
+                    self.refreshController.endRefreshing()
+                    self.tableView.reloadData()
+                } else {
+                    print("Already have get weather info, wait 10 min")
+                    self.refreshController.endRefreshing()
+                    self.tableView.reloadData()
+                }
+            } else {
+                self.homeCell = .Error
+                self.refreshController.endRefreshing()
+                print("Error (viewDidLoad/getInfoToApi)")
+            }
+        }
+    }
+    
+    @objc private func doRefresh() {
+        getInfoToApi()
+    }
+}
+
+
+// Extension for tableView
+extension HomeTableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if homeCell == .Home {

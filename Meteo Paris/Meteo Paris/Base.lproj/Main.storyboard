@@ -77,6 +77,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Météo Paris" id="Fub-RO-D1S"/>
+                    <connections>
+                        <outlet property="titleNavigationItem" destination="Fub-RO-D1S" id="U6k-by-JVL"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D5m-ql-uji" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

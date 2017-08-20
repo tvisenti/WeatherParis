@@ -16,10 +16,6 @@ class Oauth {
     let API_KEY = "f0b817cd450a59cc9e829a8aea337c61"
     let API_SITE = "https://api.openweathermap.org/data/2.5/"
     
-//    var access_token : String!
-//    var created_token : Double!
-//    var expired_token : Double!
-    
     static let sharedInstance = Oauth()
 
     private func callAPIWeather() -> URL {
@@ -27,8 +23,6 @@ class Oauth {
     }
     
     func getInfoToApi(completionHandler: @escaping (Bool, Error?, [[WeatherInfo]]?) -> ()) {
-        
-        // voir si on utilise l'ancien call ou si ca fait + de 10min
         
         DispatchQueue.global(qos: .background).async {
             print("Call to API")
