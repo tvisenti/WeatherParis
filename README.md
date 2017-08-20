@@ -18,3 +18,6 @@ Elle affiche toutes les 3 heures la température, l'humidité, le vent ainsi qu'
 ◦ Cellule d'erreur si jamais il y a un problème <br/>
 ◦ Pull to refresh mis en place au niveau de la première vue <br/>
 ◦ Commentaires dans le code pour aider à la lisibilité <br/>
+
+![alt text](https://raw.githubusercontent.com/tvisenti/WeatherParis/master/Screen%20-%20Detail.png)
+![alt text](https://raw.githubusercontent.com/tvisenti/WeatherParis/master/Screen%20-%20Detail.png)
