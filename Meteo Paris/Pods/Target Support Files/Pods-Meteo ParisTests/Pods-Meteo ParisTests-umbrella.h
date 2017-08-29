@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_Me_te_o_ParisUITestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_Me_te_o_ParisUITestsVersionString[];
+FOUNDATION_EXPORT double Pods_Meteo_ParisTestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Meteo_ParisTestsVersionString[];
 

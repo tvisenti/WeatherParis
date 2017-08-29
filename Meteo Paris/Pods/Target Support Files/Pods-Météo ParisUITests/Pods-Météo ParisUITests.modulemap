@@ -1,6 +1,0 @@
-framework module Pods_Me_te_o_ParisUITests {
-  umbrella header "Pods-Météo ParisUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

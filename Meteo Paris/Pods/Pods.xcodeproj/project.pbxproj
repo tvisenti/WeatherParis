@@ -7,197 +7,229 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02791882FF00337A3D9B46CCFC0DCA21 /* ONXRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C27A60A9013ADE19C241CD0B9D921 /* ONXRefreshControl.swift */; };
-		0860566654536F9733856D9EAB5BE083 /* RainyRefreshControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD93821CE15E4E5599815B85A102FCBD /* RainyRefreshControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2482396C2CD45325ADCF5D181751905E /* Pods-Météo ParisTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF381548EC1F63E4E93BA347ECFE73A /* Pods-Météo ParisTests-dummy.m */; };
-		24834FEADAD118650BC907617B141D6D /* RainyRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F65A06242FD1AD493EAB5240C2DBFC /* RainyRefreshControl.swift */; };
-		2E510EF27BC4C1EF89803C01666C5EFB /* Pods-Météo ParisUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 107D7C2B25764B739FFF6C5C13091410 /* Pods-Météo ParisUITests-dummy.m */; };
-		36EAA803C45054A324D5553B61B319DB /* Pods-Météo ParisTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD99303FD231C98F1B7B98FE684183F /* Pods-Météo ParisTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4477FE199B896E6F43665E0CB6812557 /* Pods-Météo Paris-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D19533B08360B34C22A3536A7561BAAE /* Pods-Météo Paris-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		46B0B32618FDFB8B19E7B6138C60317C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04E7038D5DAE430841106679F46DF90 /* Foundation.framework */; };
-		610700E59F58886551815E80CBC3CFDA /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44422A8293259DC329302B16481C9923 /* SpriteKit.framework */; };
-		664381CD434E74E816CC57A31D87072F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04E7038D5DAE430841106679F46DF90 /* Foundation.framework */; };
-		69CA3DA489129093ACE29D3908224660 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04E7038D5DAE430841106679F46DF90 /* Foundation.framework */; };
-		6A3E47F38FF86D8E240EA33EFDB9669D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04E7038D5DAE430841106679F46DF90 /* Foundation.framework */; };
-		6E13A63EB1445E40BBDFAEB88E1DBF60 /* SwiftyTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BEE132C0EE13D712BE3FFFC8E45452 /* SwiftyTimer-dummy.m */; };
-		71FA03F069FA28716C72F6C58510DA47 /* Pods-Météo Paris-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A9F9E236FA326A7184207E804DCED5 /* Pods-Météo Paris-dummy.m */; };
-		7A35784D4D16A3BCD2802E8979F7F044 /* RainyRefreshControl.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5C2895AC65941D8B331D30D29B2F05C /* RainyRefreshControl.bundle */; };
-		80EC5B450BA7B4C79951A4B03A1CDCEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04E7038D5DAE430841106679F46DF90 /* Foundation.framework */; };
-		861FC0912CBD8FE79D6CEA4A10EB2437 /* RainyRefreshControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA3DD506183B414E99FCA047E0921DE /* RainyRefreshControl-dummy.m */; };
-		873D6E0908443E9091640E7D7CB4D870 /* SwiftyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB16AEF0F91F2C4D06C1986604A4A99 /* SwiftyTimer.swift */; };
-		9211A7BDFCD1C08121D0915AB7D22A3C /* RainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D62A0A9E28CC794F85E5E90638116 /* RainScene.swift */; };
-		974BBE3068ED1B162E473D191AA69253 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90AFE754F54D1F3AA5198538915EC990 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		97E4C6B6AB8C227B2131CFDCC72A963D /* Umbrella.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C7BFE237FFD3BA67F8FEC99E5EE6A6 /* Umbrella.swift */; };
-		A000A8A16BF6067B87D221A07D528603 /* rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6B88862D85FB9267A9095956699B1BCE /* rain.sks */; };
-		BA2079CF0EC7390B4818FA6E34BE0BDE /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = F15F12715A9296538F13F715889986CC /* spark.png */; };
-		C93AB87797D6AA14B3779015DB1B2488 /* Pods-Météo ParisUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA4895CB93035300D28E952F3A3FC3C /* Pods-Météo ParisUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DF09F204158F85EE1391CA11666227D2 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D83082DD608E2ADF19E7615E402B3AF3 /* SwiftyJSON-dummy.m */; };
-		DFC48701439E79B359BFEBFA95191C68 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04E7038D5DAE430841106679F46DF90 /* Foundation.framework */; };
-		E0A17D1D0EBDA24B60D08698404EEFD8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9E141DA6BB46F13B4D4694A9D3E81 /* SwiftyJSON.swift */; };
-		F3FB542CD82831C7F521603E9AEB0462 /* SwiftyTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9D378E533B5A89CDCB23DB44126F4D /* SwiftyTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A10EE173F20C7F7EE4B4C195BF9671D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA7FA45186F6582486335B7162AD32C /* Foundation.framework */; };
+		2277900A8DE928FD808E980AE4D90B8C /* Pods-Meteo ParisTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4D4249A819BCCD97A3501EFE3FA6AC /* Pods-Meteo ParisTests-dummy.m */; };
+		2A5651E493A2ACFE201B37824F7BC2F4 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 90AFE754F54D1F3AA5198538915EC990 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B6F708ED11608ED7A190A12325DFFCA /* ONXRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6C27A60A9013ADE19C241CD0B9D921 /* ONXRefreshControl.swift */; };
+		391AA8B58D83BC91AB8045320866DA32 /* Pods-Meteo Paris-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 726A6A476A8ED4C8777BB7E0CA47C32F /* Pods-Meteo Paris-dummy.m */; };
+		4BA4AA6B21ECF89BAAF31C7729595016 /* rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 49C10EA43ECE31B38CECB11790098858 /* rain.sks */; };
+		51B7B8AAFFAF476CD0EA25BBAEE5229C /* SwiftyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB16AEF0F91F2C4D06C1986604A4A99 /* SwiftyTimer.swift */; };
+		534502691DA0F6627FE8350445A00D98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA7FA45186F6582486335B7162AD32C /* Foundation.framework */; };
+		59DE546217CAE912F05A92D1939B26EC /* RainScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F13D62A0A9E28CC794F85E5E90638116 /* RainScene.swift */; };
+		760FDA9EEA1D8BC22974D621D06F8274 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E9E141DA6BB46F13B4D4694A9D3E81 /* SwiftyJSON.swift */; };
+		779AFDD6B37BD18E95EE356D23B919AE /* Pods-Meteo Paris-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D02ECF01A3E7F5A811DDD856EF0B69BD /* Pods-Meteo Paris-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79662A37EDFCFAA3F5792BE75DA74D5F /* Umbrella.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40C7BFE237FFD3BA67F8FEC99E5EE6A6 /* Umbrella.swift */; };
+		79E10CD15540D3B4AF88576D12A796EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA7FA45186F6582486335B7162AD32C /* Foundation.framework */; };
+		7F124A70DF4D862EF05A831280F8B21D /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 059C65EC71930D2BF7ED3D7B7F1E987F /* spark.png */; };
+		87EF6C418A3FD76CD11C21C6BC5BF420 /* Pods-Meteo ParisTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD089D032424BB67762506555B87E13 /* Pods-Meteo ParisTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CFDDB438C1016A907A5AD7C36AFEE8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA7FA45186F6582486335B7162AD32C /* Foundation.framework */; };
+		8D0652ED12F38D1F88EB55E270822504 /* RainyRefreshControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CA3DD506183B414E99FCA047E0921DE /* RainyRefreshControl-dummy.m */; };
+		97C8051DA38C2EC4B1812A796533CD95 /* SwiftyTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9D378E533B5A89CDCB23DB44126F4D /* SwiftyTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7C4BE2221A52DC5C0574DFC99EA937A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA7FA45186F6582486335B7162AD32C /* Foundation.framework */; };
+		AEA9D02AF1AB1EC736254705CDF1BBAF /* RainyRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F65A06242FD1AD493EAB5240C2DBFC /* RainyRefreshControl.swift */; };
+		B6F77F1EDA1AA9BBA02CB6279022EF31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA7FA45186F6582486335B7162AD32C /* Foundation.framework */; };
+		BAC6581FAFA78ED9F3B54B0572639F30 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D83082DD608E2ADF19E7615E402B3AF3 /* SwiftyJSON-dummy.m */; };
+		BC95E511D514A7C3B2B33C42A6BEE3C1 /* Pods-Meteo ParisUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 428E5AD6D1D3CBF3F599F8FE96DF2617 /* Pods-Meteo ParisUITests-dummy.m */; };
+		C3FFC01F10418F1577EB94BAC3F551AA /* Pods-Meteo ParisUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61353195D22E646CA4BC129CCD7676A6 /* Pods-Meteo ParisUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7ADAB359AB4708956D14137AACA0182 /* SwiftyTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3BEE132C0EE13D712BE3FFFC8E45452 /* SwiftyTimer-dummy.m */; };
+		DB7E68779DB1906FEED4F7DB2D8653E5 /* RainyRefreshControl.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62AD999EC958D5B4A5722A95F923EAE2 /* RainyRefreshControl.bundle */; };
+		E0816E638D2C56F445F255C762973C5B /* RainyRefreshControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD93821CE15E4E5599815B85A102FCBD /* RainyRefreshControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE96DA2542B36DFE432F9225EBB71CF9 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0249A9C977E2C510FF1F675627C9C583 /* SpriteKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		441A7E7F6F66B467FBE24A3176C5BBD8 /* PBXContainerItemProxy */ = {
+		5BDF4A5F94F7615BDF302B22BFDFD0FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 14A7787D2E7A8C61A1FBD7D591EE588C;
-			remoteInfo = SwiftyJSON;
-		};
-		7CA84FC934D69A9650BE6C48B4A914A3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 07EC25BEE8241228F8E8D8F8DB55FD9D;
-			remoteInfo = SwiftyTimer;
-		};
-		CBA73C274B41ED0FD832C560F0600173 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9C21E162FDB63A48224DD5EFC1E2A4C5;
+			remoteGlobalIDString = 6E8803546677AF16E58BF7577F01C8EB;
 			remoteInfo = RainyRefreshControl;
 		};
-		E658A196CA7E43C82BCE6F972ED2C48D /* PBXContainerItemProxy */ = {
+		7D5254DE0E09D01A1272A197608F91D1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0D82475A4B7F6B682B674770CF31D8B7;
+			remoteGlobalIDString = 9E9842D82907287A3EA2004EF1F1A32B;
+			remoteInfo = SwiftyJSON;
+		};
+		D62562FF5F141C69BB51B817813C2812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CE4EAD100DB19BD57BFFDEC5A742F3A;
+			remoteInfo = SwiftyTimer;
+		};
+		DB36C96CD175D7731761752293729225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FCA8A4B800B02ED839BF6A846B4C7AD;
 			remoteInfo = "RainyRefreshControl-RainyRefreshControl";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04A9F9E236FA326A7184207E804DCED5 /* Pods-Météo Paris-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Météo Paris-dummy.m"; sourceTree = "<group>"; };
-		107D7C2B25764B739FFF6C5C13091410 /* Pods-Météo ParisUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Météo ParisUITests-dummy.m"; sourceTree = "<group>"; };
-		117689EC28D7D9B16C769C3F9351D571 /* Pods-Météo ParisTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Météo ParisTests.modulemap"; sourceTree = "<group>"; };
+		0249A9C977E2C510FF1F675627C9C583 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
+		059C65EC71930D2BF7ED3D7B7F1E987F /* spark.png */ = {isa = PBXFileReference; includeInIndex = 1; name = spark.png; path = Sources/Assets/spark.png; sourceTree = "<group>"; };
+		089BD19AB7B1636D07E211A491E9F4F8 /* Pods-Meteo ParisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Meteo ParisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0CA74ED67E268CC0F804E57C0976D114 /* Pods-Meteo ParisUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Meteo ParisUITests.modulemap"; sourceTree = "<group>"; };
 		14E9E141DA6BB46F13B4D4694A9D3E81 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		1526862A935E11BCEF4C52DFFEA6F2F7 /* Pods-Meteo Paris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Meteo Paris.release.xcconfig"; sourceTree = "<group>"; };
+		17BD72B8E5FA68EAE0B2CD5C00FF7404 /* Pods-Meteo ParisUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Meteo ParisUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1977D8F326007DF66AD1FAB33BAB1FDB /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		21B0FA575BDFD8DDD5D2F4C8ECA7EE85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		25AF818150BF875CB5BC198DF6B00669 /* Pods-Météo ParisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Météo ParisUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2318EF2DFACB302A7ECF6E67D15C34DE /* RainyRefreshControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RainyRefreshControl.framework; path = RainyRefreshControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7B46107237684F7188563CE32A0713 /* RainyRefreshControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RainyRefreshControl.xcconfig; sourceTree = "<group>"; };
 		2EECBB42C79582AB57839F28F790C07B /* RainyRefreshControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RainyRefreshControl-prefix.pch"; sourceTree = "<group>"; };
-		2FEDFDE252BD16E6D753EC29C04CDE35 /* Pods_Me_te_o_ParisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Me_te_o_ParisUITests.framework; path = "Pods-Météo ParisUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		354760BF2B09DE6502880B58C33BC7B0 /* SwiftyTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTimer.xcconfig; sourceTree = "<group>"; };
 		3A6C27A60A9013ADE19C241CD0B9D921 /* ONXRefreshControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ONXRefreshControl.swift; path = Sources/ONXRefreshControl.swift; sourceTree = "<group>"; };
-		3C023ACEBBA0747487195F8CB3BA2EBA /* Pods-Météo ParisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Météo ParisTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3DDD1C60DD92F81492820FCF96FFAC47 /* Pods_Me_te_o_ParisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Me_te_o_ParisTests.framework; path = "Pods-Météo ParisTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2C193314AFEC3FE219387876F573B4 /* SwiftyTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyTimer.framework; path = SwiftyTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FD089D032424BB67762506555B87E13 /* Pods-Meteo ParisTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Meteo ParisTests-umbrella.h"; sourceTree = "<group>"; };
 		40C7BFE237FFD3BA67F8FEC99E5EE6A6 /* Umbrella.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Umbrella.swift; path = Sources/Umbrella.swift; sourceTree = "<group>"; };
-		44422A8293259DC329302B16481C9923 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
-		50AB3CA6DA4971D58AD0D8E0B3D7AD63 /* Pods-Météo ParisUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Météo ParisUITests-resources.sh"; sourceTree = "<group>"; };
+		428E5AD6D1D3CBF3F599F8FE96DF2617 /* Pods-Meteo ParisUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Meteo ParisUITests-dummy.m"; sourceTree = "<group>"; };
+		49C10EA43ECE31B38CECB11790098858 /* rain.sks */ = {isa = PBXFileReference; includeInIndex = 1; name = rain.sks; path = Sources/Assets/rain.sks; sourceTree = "<group>"; };
+		505CC9EE0A7C16240C0D9240F9707241 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B688FFF30EBF592E83E271F1147609 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		51CA39D7F67889A4106CAEF428ECA6F8 /* Pods-Meteo Paris-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Meteo Paris-resources.sh"; sourceTree = "<group>"; };
 		54E5CCDAFA65C2E85E5BAC8E74536728 /* RainyRefreshControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RainyRefreshControl.modulemap; sourceTree = "<group>"; };
-		66B06E9DF19CEBAEAD341FD5F811DA2E /* Pods-Météo Paris-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Météo Paris-frameworks.sh"; sourceTree = "<group>"; };
-		68D6B367EE1B3D27C418E945FC207BEF /* RainyRefreshControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RainyRefreshControl.framework; path = RainyRefreshControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		692339B8B0436A15083C9C94590669F8 /* Pods-Météo ParisUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Météo ParisUITests-frameworks.sh"; sourceTree = "<group>"; };
-		6B88862D85FB9267A9095956699B1BCE /* rain.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; name = rain.sks; path = Sources/Assets/rain.sks; sourceTree = "<group>"; };
-		6CA4895CB93035300D28E952F3A3FC3C /* Pods-Météo ParisUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Météo ParisUITests-umbrella.h"; sourceTree = "<group>"; };
+		562ECFBD647A64045E0DFBA5198ED71B /* Pods-Meteo ParisUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Meteo ParisUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B4D4249A819BCCD97A3501EFE3FA6AC /* Pods-Meteo ParisTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Meteo ParisTests-dummy.m"; sourceTree = "<group>"; };
+		5E3079B1E83F369ADC0DFBA11E266961 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61353195D22E646CA4BC129CCD7676A6 /* Pods-Meteo ParisUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Meteo ParisUITests-umbrella.h"; sourceTree = "<group>"; };
+		62AD999EC958D5B4A5722A95F923EAE2 /* RainyRefreshControl.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RainyRefreshControl.bundle; path = RainyRefreshControl.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6897E44D1A574BDF8FB0983B18B11968 /* Pods-Meteo ParisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Meteo ParisTests.release.xcconfig"; sourceTree = "<group>"; };
 		71DAA77282B3D88569CF543E341B0700 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		726A6A476A8ED4C8777BB7E0CA47C32F /* Pods-Meteo Paris-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Meteo Paris-dummy.m"; sourceTree = "<group>"; };
 		7386FFE5B7487F4E3D48D8A02C17CDAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		77FAB64E224544BDCC8DB3E1173F63C6 /* Pods-Météo Paris-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Météo Paris-resources.sh"; sourceTree = "<group>"; };
-		7BF381548EC1F63E4E93BA347ECFE73A /* Pods-Météo ParisTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Météo ParisTests-dummy.m"; sourceTree = "<group>"; };
-		7C0FB4B94A2A810F7B05CFDD59AAD70F /* Pods-Météo Paris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Météo Paris.release.xcconfig"; sourceTree = "<group>"; };
-		7E1EC17C538987BD281A43C9B7DBF1A3 /* Pods-Météo ParisTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Météo ParisTests-resources.sh"; sourceTree = "<group>"; };
+		76A33C5CCDD30519EE70B2DF7FB83F1B /* Pods_Meteo_ParisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Meteo_ParisTests.framework; path = "Pods-Meteo ParisTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8121A7A453D398A1B3E925DB09A3BA6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82F65A06242FD1AD493EAB5240C2DBFC /* RainyRefreshControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RainyRefreshControl.swift; path = Sources/RainyRefreshControl.swift; sourceTree = "<group>"; };
-		88EC19229077AE2CA3980D5384E0FA36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8922FD9D42F700398C6B4F11880BBDEC /* SwiftyTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyTimer.modulemap; sourceTree = "<group>"; };
-		8D4B64DED5D92209D78A0FCDC75674BE /* Pods-Météo ParisUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Météo ParisUITests.modulemap"; sourceTree = "<group>"; };
+		908DE85029BE9D21718473BB70F50EB9 /* Pods-Meteo Paris-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Meteo Paris-acknowledgements.plist"; sourceTree = "<group>"; };
 		90AFE754F54D1F3AA5198538915EC990 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9442E5742E0D925006CDAE15F00E87D1 /* SwiftyTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTimer-prefix.pch"; sourceTree = "<group>"; };
 		9CA3DD506183B414E99FCA047E0921DE /* RainyRefreshControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RainyRefreshControl-dummy.m"; sourceTree = "<group>"; };
-		A50F25F50D8E3055C759AFD42FFEE36C /* Pods-Météo ParisTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Météo ParisTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9DF081D692BD8CA219EF4CFAC8FC6FA5 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E25D73D2959A0E4B47AC9EC3D7B5B80 /* Pods-Meteo Paris-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Meteo Paris-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A618176B3D34263AB730FE9F6A775EFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A70B61A7AA99CCD7F1F5D5F38A7F8169 /* Pods-Météo ParisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Météo ParisTests.release.xcconfig"; sourceTree = "<group>"; };
-		AC474935D6174154CB4C89412158834D /* Pods-Météo Paris.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Météo Paris.modulemap"; sourceTree = "<group>"; };
+		AB4EA182A8AEF4F22AB95755EE9C4724 /* Pods-Meteo ParisUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Meteo ParisUITests-resources.sh"; sourceTree = "<group>"; };
 		ADB16AEF0F91F2C4D06C1986604A4A99 /* SwiftyTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyTimer.swift; path = Sources/SwiftyTimer.swift; sourceTree = "<group>"; };
-		B228F5CB30162D3B707AE1364C4E43D8 /* SwiftyTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyTimer.framework; path = SwiftyTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF0EC2D9B81ECFB6F509F1E38C96C8F8 /* Pods-Meteo ParisTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Meteo ParisTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1CBD6A9E76EC5725385AA1A7B34032A /* Pods-Meteo ParisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Meteo ParisUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B3BEE132C0EE13D712BE3FFFC8E45452 /* SwiftyTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyTimer-dummy.m"; sourceTree = "<group>"; };
 		B82F9085ACA75AF0C25DCBF3D59F9785 /* ResourceBundle-RainyRefreshControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RainyRefreshControl-Info.plist"; sourceTree = "<group>"; };
-		BAF49CE190D5E976CCF9C32154B5BA36 /* Pods-Météo ParisUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Météo ParisUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		BC6FFE2B1A892B24CA80E60CDA691506 /* Pods-Météo Paris-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Météo Paris-acknowledgements.plist"; sourceTree = "<group>"; };
-		C19E02CA5CEDD4D2A65F505D931FEB08 /* Pods-Météo Paris-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Météo Paris-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C5C2895AC65941D8B331D30D29B2F05C /* RainyRefreshControl.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RainyRefreshControl.bundle; path = RainyRefreshControl.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA577DD688CF4DAA417DDC8ED0A4195D /* Pods-Météo ParisUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Météo ParisUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE59C09D83F6A7A267CBFAB44CA81395 /* Pods-Meteo Paris-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Meteo Paris-frameworks.sh"; sourceTree = "<group>"; };
+		BFADEB99C9004F5EF1FE1D5A48E76DF7 /* Pods-Meteo ParisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Meteo ParisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C01352698925954075654C94A8DDAFB1 /* Pods-Meteo ParisTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Meteo ParisTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CB16D32D71FA6D4EDEC8FF183BD0BFC0 /* Pods-Meteo Paris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Meteo Paris.debug.xcconfig"; sourceTree = "<group>"; };
 		CB9D378E533B5A89CDCB23DB44126F4D /* SwiftyTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTimer-umbrella.h"; sourceTree = "<group>"; };
-		D04E7038D5DAE430841106679F46DF90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D0E0DA0E41E348FFC7FC09E6B4449880 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D19533B08360B34C22A3536A7561BAAE /* Pods-Météo Paris-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Météo Paris-umbrella.h"; sourceTree = "<group>"; };
+		D02ECF01A3E7F5A811DDD856EF0B69BD /* Pods-Meteo Paris-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Meteo Paris-umbrella.h"; sourceTree = "<group>"; };
+		D17F7E913DB7F2B91CA1E195F7400A8D /* Pods-Meteo ParisTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Meteo ParisTests-resources.sh"; sourceTree = "<group>"; };
+		D2D80DD25F6FD6AF64C5E849409ECC47 /* Pods-Meteo ParisTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Meteo ParisTests.modulemap"; sourceTree = "<group>"; };
 		D83082DD608E2ADF19E7615E402B3AF3 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
-		D85399B48C910115E25DC6FFACEE1326 /* Pods-Météo Paris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Météo Paris.debug.xcconfig"; sourceTree = "<group>"; };
-		E410183EC674E1AEC3AFE067C1FF5AB4 /* Pods-Météo ParisUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Météo ParisUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E70B2F5F90D7D1D86D947F5D27CC30F0 /* Pods_Me_te_o_Paris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Me_te_o_Paris.framework; path = "Pods-Météo Paris.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBD99303FD231C98F1B7B98FE684183F /* Pods-Météo ParisTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Météo ParisTests-umbrella.h"; sourceTree = "<group>"; };
+		E11E232C363D67141B06296C978579B8 /* Pods-Meteo ParisTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Meteo ParisTests-frameworks.sh"; sourceTree = "<group>"; };
+		E2F84CEDAD899320C4BD9DC89EB4B7AA /* Pods_Meteo_Paris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Meteo_Paris.framework; path = "Pods-Meteo Paris.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB349AE3E516D2D72CDB5783DEC430A0 /* Pods-Meteo ParisUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Meteo ParisUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F1313849BBC119D5B98AD73A1A071F39 /* Pods-Meteo Paris.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Meteo Paris.modulemap"; sourceTree = "<group>"; };
 		F13D62A0A9E28CC794F85E5E90638116 /* RainScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RainScene.swift; path = Sources/RainScene.swift; sourceTree = "<group>"; };
-		F15F12715A9296538F13F715889986CC /* spark.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = spark.png; path = Sources/Assets/spark.png; sourceTree = "<group>"; };
-		F90C9050802CD5F229ACF06DFBF125F5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB98D71084CD705C5BE0F6F0771FB4F7 /* Pods-Météo ParisTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Météo ParisTests-frameworks.sh"; sourceTree = "<group>"; };
+		F5934EE23800D80EF30D20B8D4A48002 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F646D4F38F3443433864BF51EA02E660 /* Pods_Meteo_ParisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Meteo_ParisUITests.framework; path = "Pods-Meteo ParisUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCA7FA45186F6582486335B7162AD32C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FD93821CE15E4E5599815B85A102FCBD /* RainyRefreshControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RainyRefreshControl-umbrella.h"; sourceTree = "<group>"; };
-		FEE36ADF5B77F453B839FA676B90157C /* Pods-Météo ParisTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Météo ParisTests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		229D2D7C9CD81DFC7E542785C97A20FB /* Frameworks */ = {
+		2D601ACE424339070A32634ED479982B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CFDDB438C1016A907A5AD7C36AFEE8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DC0388E0998CA3AD485398F1F3808A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A10EE173F20C7F7EE4B4C195BF9671D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65828D7553EC9DB6734073C275C1E988 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6F77F1EDA1AA9BBA02CB6279022EF31 /* Foundation.framework in Frameworks */,
+				EE96DA2542B36DFE432F9225EBB71CF9 /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9938D8AC6F3453DD4E695D47198DE025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534502691DA0F6627FE8350445A00D98 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACDA6526E0D28D6BECD101981A64B098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E10CD15540D3B4AF88576D12A796EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF8360A9E2950411BF177456A0F11FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2775AE1953DC16E9376CAE4366F251FA /* Frameworks */ = {
+		F20B154555527944B4C6B21756766AA9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				664381CD434E74E816CC57A31D87072F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B6CBBB80F56451C47893D9FADF050A21 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				69CA3DA489129093ACE29D3908224660 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DEB5E336F58C96FF278D5565D93ABE7A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A3E47F38FF86D8E240EA33EFDB9669D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E5BB59E16743EC9B34B9599FAC888B35 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DFC48701439E79B359BFEBFA95191C68 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9745013F484614A31A913F86829FD74 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				80EC5B450BA7B4C79951A4B03A1CDCEC /* Foundation.framework in Frameworks */,
-				610700E59F58886551815E80CBC3CFDA /* SpriteKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FBAFA6B652FCB423D58B4AB2582D03F9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				46B0B32618FDFB8B19E7B6138C60317C /* Foundation.framework in Frameworks */,
+				A7C4BE2221A52DC5C0574DFC99EA937A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0388F7B24BCF2FC37689CBAAEA10F98D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2F84CEDAD899320C4BD9DC89EB4B7AA /* Pods_Meteo_Paris.framework */,
+				76A33C5CCDD30519EE70B2DF7FB83F1B /* Pods_Meteo_ParisTests.framework */,
+				F646D4F38F3443433864BF51EA02E660 /* Pods_Meteo_ParisUITests.framework */,
+				62AD999EC958D5B4A5722A95F923EAE2 /* RainyRefreshControl.bundle */,
+				2318EF2DFACB302A7ECF6E67D15C34DE /* RainyRefreshControl.framework */,
+				9DF081D692BD8CA219EF4CFAC8FC6FA5 /* SwiftyJSON.framework */,
+				3F2C193314AFEC3FE219387876F573B4 /* SwiftyTimer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0501CFF3B7705982E127EC3F98C3346D /* Pods-Meteo ParisTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E3079B1E83F369ADC0DFBA11E266961 /* Info.plist */,
+				D2D80DD25F6FD6AF64C5E849409ECC47 /* Pods-Meteo ParisTests.modulemap */,
+				AF0EC2D9B81ECFB6F509F1E38C96C8F8 /* Pods-Meteo ParisTests-acknowledgements.markdown */,
+				C01352698925954075654C94A8DDAFB1 /* Pods-Meteo ParisTests-acknowledgements.plist */,
+				5B4D4249A819BCCD97A3501EFE3FA6AC /* Pods-Meteo ParisTests-dummy.m */,
+				E11E232C363D67141B06296C978579B8 /* Pods-Meteo ParisTests-frameworks.sh */,
+				D17F7E913DB7F2B91CA1E195F7400A8D /* Pods-Meteo ParisTests-resources.sh */,
+				3FD089D032424BB67762506555B87E13 /* Pods-Meteo ParisTests-umbrella.h */,
+				BFADEB99C9004F5EF1FE1D5A48E76DF7 /* Pods-Meteo ParisTests.debug.xcconfig */,
+				6897E44D1A574BDF8FB0983B18B11968 /* Pods-Meteo ParisTests.release.xcconfig */,
+			);
+			name = "Pods-Meteo ParisTests";
+			path = "Target Support Files/Pods-Meteo ParisTests";
+			sourceTree = "<group>";
+		};
 		188F49ECEA1EAC57B51675E2DFBE20C6 /* SwiftyTimer */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,45 +243,18 @@
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				924701E6994ADADCF6C8C73C2611FD41 /* iOS */,
+				4C7095B9AFEC860980372B20C9D52AC4 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		468717AF83B55A98E8BB28CA9B660115 /* Pods-Météo Paris */ = {
+		4C7095B9AFEC860980372B20C9D52AC4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				21B0FA575BDFD8DDD5D2F4C8ECA7EE85 /* Info.plist */,
-				AC474935D6174154CB4C89412158834D /* Pods-Météo Paris.modulemap */,
-				C19E02CA5CEDD4D2A65F505D931FEB08 /* Pods-Météo Paris-acknowledgements.markdown */,
-				BC6FFE2B1A892B24CA80E60CDA691506 /* Pods-Météo Paris-acknowledgements.plist */,
-				04A9F9E236FA326A7184207E804DCED5 /* Pods-Météo Paris-dummy.m */,
-				66B06E9DF19CEBAEAD341FD5F811DA2E /* Pods-Météo Paris-frameworks.sh */,
-				77FAB64E224544BDCC8DB3E1173F63C6 /* Pods-Météo Paris-resources.sh */,
-				D19533B08360B34C22A3536A7561BAAE /* Pods-Météo Paris-umbrella.h */,
-				D85399B48C910115E25DC6FFACEE1326 /* Pods-Météo Paris.debug.xcconfig */,
-				7C0FB4B94A2A810F7B05CFDD59AAD70F /* Pods-Météo Paris.release.xcconfig */,
+				FCA7FA45186F6582486335B7162AD32C /* Foundation.framework */,
+				0249A9C977E2C510FF1F675627C9C583 /* SpriteKit.framework */,
 			);
-			name = "Pods-Météo Paris";
-			path = "Target Support Files/Pods-Météo Paris";
-			sourceTree = "<group>";
-		};
-		4C37E3A76E0E06E7B487D1DFD909DB61 /* Pods-Météo ParisUITests */ = {
-			isa = PBXGroup;
-			children = (
-				88EC19229077AE2CA3980D5384E0FA36 /* Info.plist */,
-				8D4B64DED5D92209D78A0FCDC75674BE /* Pods-Météo ParisUITests.modulemap */,
-				CA577DD688CF4DAA417DDC8ED0A4195D /* Pods-Météo ParisUITests-acknowledgements.markdown */,
-				E410183EC674E1AEC3AFE067C1FF5AB4 /* Pods-Météo ParisUITests-acknowledgements.plist */,
-				107D7C2B25764B739FFF6C5C13091410 /* Pods-Météo ParisUITests-dummy.m */,
-				692339B8B0436A15083C9C94590669F8 /* Pods-Météo ParisUITests-frameworks.sh */,
-				50AB3CA6DA4971D58AD0D8E0B3D7AD63 /* Pods-Météo ParisUITests-resources.sh */,
-				6CA4895CB93035300D28E952F3A3FC3C /* Pods-Météo ParisUITests-umbrella.h */,
-				BAF49CE190D5E976CCF9C32154B5BA36 /* Pods-Météo ParisUITests.debug.xcconfig */,
-				25AF818150BF875CB5BC198DF6B00669 /* Pods-Météo ParisUITests.release.xcconfig */,
-			);
-			name = "Pods-Météo ParisUITests";
-			path = "Target Support Files/Pods-Météo ParisUITests";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -258,18 +263,27 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				B9E6C2A2259A4B4AFC43199BA58AC818 /* Pods */,
-				CC14F03A2F148B31761EA37445A51200 /* Products */,
-				A78EB272ACA05A8816F6784181A62106 /* Targets Support Files */,
+				0388F7B24BCF2FC37689CBAAEA10F98D /* Products */,
+				FE29B13AC8D7C6996668B93F447AA244 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		924701E6994ADADCF6C8C73C2611FD41 /* iOS */ = {
+		83177A2DE37690DB276860190DB3E200 /* Pods-Meteo Paris */ = {
 			isa = PBXGroup;
 			children = (
-				D04E7038D5DAE430841106679F46DF90 /* Foundation.framework */,
-				44422A8293259DC329302B16481C9923 /* SpriteKit.framework */,
+				505CC9EE0A7C16240C0D9240F9707241 /* Info.plist */,
+				F1313849BBC119D5B98AD73A1A071F39 /* Pods-Meteo Paris.modulemap */,
+				9E25D73D2959A0E4B47AC9EC3D7B5B80 /* Pods-Meteo Paris-acknowledgements.markdown */,
+				908DE85029BE9D21718473BB70F50EB9 /* Pods-Meteo Paris-acknowledgements.plist */,
+				726A6A476A8ED4C8777BB7E0CA47C32F /* Pods-Meteo Paris-dummy.m */,
+				BE59C09D83F6A7A267CBFAB44CA81395 /* Pods-Meteo Paris-frameworks.sh */,
+				51CA39D7F67889A4106CAEF428ECA6F8 /* Pods-Meteo Paris-resources.sh */,
+				D02ECF01A3E7F5A811DDD856EF0B69BD /* Pods-Meteo Paris-umbrella.h */,
+				CB16D32D71FA6D4EDEC8FF183BD0BFC0 /* Pods-Meteo Paris.debug.xcconfig */,
+				1526862A935E11BCEF4C52DFFEA6F2F7 /* Pods-Meteo Paris.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Pods-Meteo Paris";
+			path = "Target Support Files/Pods-Meteo Paris";
 			sourceTree = "<group>";
 		};
 		93BC7284DBFD5B7BCB75595CCC6CC707 /* SwiftyJSON */ = {
@@ -282,14 +296,22 @@
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
-		A78EB272ACA05A8816F6784181A62106 /* Targets Support Files */ = {
+		A72673B1D5DFE1F40E6A1CC33CD615D8 /* Pods-Meteo ParisUITests */ = {
 			isa = PBXGroup;
 			children = (
-				468717AF83B55A98E8BB28CA9B660115 /* Pods-Météo Paris */,
-				D8315765245CF078C4C5EA565299BCB2 /* Pods-Météo ParisTests */,
-				4C37E3A76E0E06E7B487D1DFD909DB61 /* Pods-Météo ParisUITests */,
+				F5934EE23800D80EF30D20B8D4A48002 /* Info.plist */,
+				0CA74ED67E268CC0F804E57C0976D114 /* Pods-Meteo ParisUITests.modulemap */,
+				17BD72B8E5FA68EAE0B2CD5C00FF7404 /* Pods-Meteo ParisUITests-acknowledgements.markdown */,
+				562ECFBD647A64045E0DFBA5198ED71B /* Pods-Meteo ParisUITests-acknowledgements.plist */,
+				428E5AD6D1D3CBF3F599F8FE96DF2617 /* Pods-Meteo ParisUITests-dummy.m */,
+				EB349AE3E516D2D72CDB5783DEC430A0 /* Pods-Meteo ParisUITests-frameworks.sh */,
+				AB4EA182A8AEF4F22AB95755EE9C4724 /* Pods-Meteo ParisUITests-resources.sh */,
+				61353195D22E646CA4BC129CCD7676A6 /* Pods-Meteo ParisUITests-umbrella.h */,
+				B1CBD6A9E76EC5725385AA1A7B34032A /* Pods-Meteo ParisUITests.debug.xcconfig */,
+				089BD19AB7B1636D07E211A491E9F4F8 /* Pods-Meteo ParisUITests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-Meteo ParisUITests";
+			path = "Target Support Files/Pods-Meteo ParisUITests";
 			sourceTree = "<group>";
 		};
 		B9E6C2A2259A4B4AFC43199BA58AC818 /* Pods */ = {
@@ -302,27 +324,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		BEE329E39C725BD5BBDFAE24C8E9DAE2 /* Resources */ = {
+		CF8090D081C4D17C94A4FADC5CA5E849 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6B88862D85FB9267A9095956699B1BCE /* rain.sks */,
-				F15F12715A9296538F13F715889986CC /* spark.png */,
+				49C10EA43ECE31B38CECB11790098858 /* rain.sks */,
+				059C65EC71930D2BF7ED3D7B7F1E987F /* spark.png */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
-		};
-		CC14F03A2F148B31761EA37445A51200 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E70B2F5F90D7D1D86D947F5D27CC30F0 /* Pods_Me_te_o_Paris.framework */,
-				3DDD1C60DD92F81492820FCF96FFAC47 /* Pods_Me_te_o_ParisTests.framework */,
-				2FEDFDE252BD16E6D753EC29C04CDE35 /* Pods_Me_te_o_ParisUITests.framework */,
-				C5C2895AC65941D8B331D30D29B2F05C /* RainyRefreshControl.bundle */,
-				68D6B367EE1B3D27C418E945FC207BEF /* RainyRefreshControl.framework */,
-				D0E0DA0E41E348FFC7FC09E6B4449880 /* SwiftyJSON.framework */,
-				B228F5CB30162D3B707AE1364C4E43D8 /* SwiftyTimer.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D3D3562B3950366492F352679850B606 /* Support Files */ = {
@@ -354,24 +362,6 @@
 			path = "../Target Support Files/RainyRefreshControl";
 			sourceTree = "<group>";
 		};
-		D8315765245CF078C4C5EA565299BCB2 /* Pods-Météo ParisTests */ = {
-			isa = PBXGroup;
-			children = (
-				F90C9050802CD5F229ACF06DFBF125F5 /* Info.plist */,
-				117689EC28D7D9B16C769C3F9351D571 /* Pods-Météo ParisTests.modulemap */,
-				A50F25F50D8E3055C759AFD42FFEE36C /* Pods-Météo ParisTests-acknowledgements.markdown */,
-				FEE36ADF5B77F453B839FA676B90157C /* Pods-Météo ParisTests-acknowledgements.plist */,
-				7BF381548EC1F63E4E93BA347ECFE73A /* Pods-Météo ParisTests-dummy.m */,
-				FB98D71084CD705C5BE0F6F0771FB4F7 /* Pods-Météo ParisTests-frameworks.sh */,
-				7E1EC17C538987BD281A43C9B7DBF1A3 /* Pods-Météo ParisTests-resources.sh */,
-				EBD99303FD231C98F1B7B98FE684183F /* Pods-Météo ParisTests-umbrella.h */,
-				3C023ACEBBA0747487195F8CB3BA2EBA /* Pods-Météo ParisTests.debug.xcconfig */,
-				A70B61A7AA99CCD7F1F5D5F38A7F8169 /* Pods-Météo ParisTests.release.xcconfig */,
-			);
-			name = "Pods-Météo ParisTests";
-			path = "Target Support Files/Pods-Météo ParisTests";
-			sourceTree = "<group>";
-		};
 		DE953B4BF8D19019C1FFF9EE88DD3847 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -393,91 +383,84 @@
 				F13D62A0A9E28CC794F85E5E90638116 /* RainScene.swift */,
 				82F65A06242FD1AD493EAB5240C2DBFC /* RainyRefreshControl.swift */,
 				40C7BFE237FFD3BA67F8FEC99E5EE6A6 /* Umbrella.swift */,
-				BEE329E39C725BD5BBDFAE24C8E9DAE2 /* Resources */,
+				CF8090D081C4D17C94A4FADC5CA5E849 /* Resources */,
 				D725C7BC52E0E9EC328CDB5E36573BEC /* Support Files */,
 			);
 			name = RainyRefreshControl;
 			path = RainyRefreshControl;
 			sourceTree = "<group>";
 		};
+		FE29B13AC8D7C6996668B93F447AA244 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83177A2DE37690DB276860190DB3E200 /* Pods-Meteo Paris */,
+				0501CFF3B7705982E127EC3F98C3346D /* Pods-Meteo ParisTests */,
+				A72673B1D5DFE1F40E6A1CC33CD615D8 /* Pods-Meteo ParisUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0C81FAE35874B9224154763EE43FBD7B /* Headers */ = {
+		1F0E190493F4E8959F605C691E696C04 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C93AB87797D6AA14B3779015DB1B2488 /* Pods-Météo ParisUITests-umbrella.h in Headers */,
+				2A5651E493A2ACFE201B37824F7BC2F4 /* SwiftyJSON-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16648AAD4B6D6481EA0AE359EDAFD59B /* Headers */ = {
+		361CB93CDDE5881990B92AB811DE632B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4477FE199B896E6F43665E0CB6812557 /* Pods-Météo Paris-umbrella.h in Headers */,
+				97C8051DA38C2EC4B1812A796533CD95 /* SwiftyTimer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B3218ECE06D8E9C17AF7A95587ED22B /* Headers */ = {
+		3D3A35F66370369EDEE77EC153168393 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0860566654536F9733856D9EAB5BE083 /* RainyRefreshControl-umbrella.h in Headers */,
+				779AFDD6B37BD18E95EE356D23B919AE /* Pods-Meteo Paris-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		57664CC52DB688F3E1BFA834C20DCFC3 /* Headers */ = {
+		5EC5E243C534E84EEB06829CBE961A93 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				974BBE3068ED1B162E473D191AA69253 /* SwiftyJSON-umbrella.h in Headers */,
+				87EF6C418A3FD76CD11C21C6BC5BF420 /* Pods-Meteo ParisTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C497A41DFDEDAF5B1D680023982DD11B /* Headers */ = {
+		A5E5AF288B57AB2B22A45435DCDD1689 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3FB542CD82831C7F521603E9AEB0462 /* SwiftyTimer-umbrella.h in Headers */,
+				E0816E638D2C56F445F255C762973C5B /* RainyRefreshControl-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E120243BDAE7E2741415DDF51E164BC1 /* Headers */ = {
+		F4C8C153CE2C4719B87568B84BB18FED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36EAA803C45054A324D5553B61B319DB /* Pods-Météo ParisTests-umbrella.h in Headers */,
+				C3FFC01F10418F1577EB94BAC3F551AA /* Pods-Meteo ParisUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		07EC25BEE8241228F8E8D8F8DB55FD9D /* SwiftyTimer */ = {
+		1FCA8A4B800B02ED839BF6A846B4C7AD /* RainyRefreshControl-RainyRefreshControl */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86013FC4D3DB0E93A67E331F5F4C2545 /* Build configuration list for PBXNativeTarget "SwiftyTimer" */;
+			buildConfigurationList = B6E4676D24C01E4A55E15AA1B38A42CD /* Build configuration list for PBXNativeTarget "RainyRefreshControl-RainyRefreshControl" */;
 			buildPhases = (
-				341421C682272E23C78B7CC58265A5DA /* Sources */,
-				DEB5E336F58C96FF278D5565D93ABE7A /* Frameworks */,
-				C497A41DFDEDAF5B1D680023982DD11B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftyTimer;
-			productName = SwiftyTimer;
-			productReference = B228F5CB30162D3B707AE1364C4E43D8 /* SwiftyTimer.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		0D82475A4B7F6B682B674770CF31D8B7 /* RainyRefreshControl-RainyRefreshControl */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1C4A8C498D91022198E73EBE32D38861 /* Build configuration list for PBXNativeTarget "RainyRefreshControl-RainyRefreshControl" */;
-			buildPhases = (
-				E9D5467AC2100788365D5B544E143C39 /* Sources */,
-				229D2D7C9CD81DFC7E542785C97A20FB /* Frameworks */,
-				4FAA87660061D1CEB58E3217D8E0F449 /* Resources */,
+				E897C6586E32B9D189FCB9051FB579E6 /* Sources */,
+				EEF8360A9E2950411BF177456A0F11FA /* Frameworks */,
+				3AB30457492B774A3EA601ACDABD4EE3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -485,16 +468,89 @@
 			);
 			name = "RainyRefreshControl-RainyRefreshControl";
 			productName = "RainyRefreshControl-RainyRefreshControl";
-			productReference = C5C2895AC65941D8B331D30D29B2F05C /* RainyRefreshControl.bundle */;
+			productReference = 62AD999EC958D5B4A5722A95F923EAE2 /* RainyRefreshControl.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		14A7787D2E7A8C61A1FBD7D591EE588C /* SwiftyJSON */ = {
+		422943286CD7A11CB1404C16C5D0DF75 /* Pods-Meteo ParisUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4F5A1F242970037D6B9A073F326C0AA5 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildConfigurationList = 86DFD9CA121FC8983CCACAC4792CEDCC /* Build configuration list for PBXNativeTarget "Pods-Meteo ParisUITests" */;
 			buildPhases = (
-				98DFF2F7A1FD314B9C05000D28DE43DA /* Sources */,
-				B6CBBB80F56451C47893D9FADF050A21 /* Frameworks */,
-				57664CC52DB688F3E1BFA834C20DCFC3 /* Headers */,
+				387C7B114283B9CAFEC688643D767AEB /* Sources */,
+				ACDA6526E0D28D6BECD101981A64B098 /* Frameworks */,
+				F4C8C153CE2C4719B87568B84BB18FED /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Meteo ParisUITests";
+			productName = "Pods-Meteo ParisUITests";
+			productReference = F646D4F38F3443433864BF51EA02E660 /* Pods_Meteo_ParisUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4981A5A901657C421F9A51A3B017D2B9 /* Pods-Meteo Paris */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CC719DA6A37CE0A86EF7BB94A73513C /* Build configuration list for PBXNativeTarget "Pods-Meteo Paris" */;
+			buildPhases = (
+				2D58CC5E0DDA0242449A3630336167E5 /* Sources */,
+				2D601ACE424339070A32634ED479982B /* Frameworks */,
+				3D3A35F66370369EDEE77EC153168393 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1E55511D640D7060FB083279D8344EF /* PBXTargetDependency */,
+				A415AD543E8E116159E0C2DC40052F43 /* PBXTargetDependency */,
+				3122F577E0C345F1C66FBE8E9B462ADD /* PBXTargetDependency */,
+			);
+			name = "Pods-Meteo Paris";
+			productName = "Pods-Meteo Paris";
+			productReference = E2F84CEDAD899320C4BD9DC89EB4B7AA /* Pods_Meteo_Paris.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4CE4EAD100DB19BD57BFFDEC5A742F3A /* SwiftyTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D39AF82A3F3FF4493628D5499068175 /* Build configuration list for PBXNativeTarget "SwiftyTimer" */;
+			buildPhases = (
+				562BE3853F6BE9BD4EA043C95BEB07C7 /* Sources */,
+				5DC0388E0998CA3AD485398F1F3808A0 /* Frameworks */,
+				361CB93CDDE5881990B92AB811DE632B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyTimer;
+			productName = SwiftyTimer;
+			productReference = 3F2C193314AFEC3FE219387876F573B4 /* SwiftyTimer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E8803546677AF16E58BF7577F01C8EB /* RainyRefreshControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55F3170B9FA372FA86DC652E45874978 /* Build configuration list for PBXNativeTarget "RainyRefreshControl" */;
+			buildPhases = (
+				BBB10E71C331BCCB4D9DF9D14B14A1DA /* Sources */,
+				65828D7553EC9DB6734073C275C1E988 /* Frameworks */,
+				04D6D9299AF3F67122AE9C5D9BFF4951 /* Resources */,
+				A5E5AF288B57AB2B22A45435DCDD1689 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4E24C59C8F47EDAAA99D93264D4111D /* PBXTargetDependency */,
+			);
+			name = RainyRefreshControl;
+			productName = RainyRefreshControl;
+			productReference = 2318EF2DFACB302A7ECF6E67D15C34DE /* RainyRefreshControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9E9842D82907287A3EA2004EF1F1A32B /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449BECA5872CBA13557151E291A62194 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				262A32D8C06CE024CC230F11550CDD18 /* Sources */,
+				9938D8AC6F3453DD4E695D47198DE025 /* Frameworks */,
+				1F0E190493F4E8959F605C691E696C04 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -502,80 +558,24 @@
 			);
 			name = SwiftyJSON;
 			productName = SwiftyJSON;
-			productReference = D0E0DA0E41E348FFC7FC09E6B4449880 /* SwiftyJSON.framework */;
+			productReference = 9DF081D692BD8CA219EF4CFAC8FC6FA5 /* SwiftyJSON.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6381CE497E9AD1CC31876E2A944F9C95 /* Pods-Météo Paris */ = {
+		F3214C71CF31EA3DD47521158DDAD495 /* Pods-Meteo ParisTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18026CD696E1B309E952D3831521D052 /* Build configuration list for PBXNativeTarget "Pods-Météo Paris" */;
+			buildConfigurationList = 19D903D61E436B4ED13291336F0A8F3E /* Build configuration list for PBXNativeTarget "Pods-Meteo ParisTests" */;
 			buildPhases = (
-				3F7ED3049EE853DB4902D2CAB2F4610A /* Sources */,
-				E5BB59E16743EC9B34B9599FAC888B35 /* Frameworks */,
-				16648AAD4B6D6481EA0AE359EDAFD59B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				662B3B865AB9877764EBCCCA1EBDD7DD /* PBXTargetDependency */,
-				8D31E7CF874285D39DE5323C9479E517 /* PBXTargetDependency */,
-				7E05095214A1C54CC488AAADEFDB1A17 /* PBXTargetDependency */,
-			);
-			name = "Pods-Météo Paris";
-			productName = "Pods-Météo Paris";
-			productReference = E70B2F5F90D7D1D86D947F5D27CC30F0 /* Pods_Me_te_o_Paris.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9C21E162FDB63A48224DD5EFC1E2A4C5 /* RainyRefreshControl */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 459909CD608F0F51B2F1733057F3E3D6 /* Build configuration list for PBXNativeTarget "RainyRefreshControl" */;
-			buildPhases = (
-				1987B82B479A0A13BCCA72E9B8EB0F7D /* Sources */,
-				F9745013F484614A31A913F86829FD74 /* Frameworks */,
-				5C3AED9B723F8DED90D0B71BE49E7406 /* Resources */,
-				3B3218ECE06D8E9C17AF7A95587ED22B /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7A6D941B373355F5CB060594C5272995 /* PBXTargetDependency */,
-			);
-			name = RainyRefreshControl;
-			productName = RainyRefreshControl;
-			productReference = 68D6B367EE1B3D27C418E945FC207BEF /* RainyRefreshControl.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B2FD64000B3057F79274A1B66B4A6E83 /* Pods-Météo ParisUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0FBC928CC24BECE9E6E20EEB859B5492 /* Build configuration list for PBXNativeTarget "Pods-Météo ParisUITests" */;
-			buildPhases = (
-				20BBFDB80580F0B6001012030FF6E6FB /* Sources */,
-				FBAFA6B652FCB423D58B4AB2582D03F9 /* Frameworks */,
-				0C81FAE35874B9224154763EE43FBD7B /* Headers */,
+				BD5575A31AF9C5317BCC4B2E2E161B42 /* Sources */,
+				F20B154555527944B4C6B21756766AA9 /* Frameworks */,
+				5EC5E243C534E84EEB06829CBE961A93 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-Météo ParisUITests";
-			productName = "Pods-Météo ParisUITests";
-			productReference = 2FEDFDE252BD16E6D753EC29C04CDE35 /* Pods_Me_te_o_ParisUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C2FB8D63DC95C0915230472E4BE8FC44 /* Pods-Météo ParisTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 123916674CBEC514AA6CE55B45F23D9A /* Build configuration list for PBXNativeTarget "Pods-Météo ParisTests" */;
-			buildPhases = (
-				F0B1202E7712EFACE5E9F11823886D63 /* Sources */,
-				2775AE1953DC16E9376CAE4366F251FA /* Frameworks */,
-				E120243BDAE7E2741415DDF51E164BC1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-Météo ParisTests";
-			productName = "Pods-Météo ParisTests";
-			productReference = 3DDD1C60DD92F81492820FCF96FFAC47 /* Pods_Me_te_o_ParisTests.framework */;
+			name = "Pods-Meteo ParisTests";
+			productName = "Pods-Meteo ParisTests";
+			productReference = 76A33C5CCDD30519EE70B2DF7FB83F1B /* Pods_Meteo_ParisTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -584,7 +584,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -595,186 +595,166 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CC14F03A2F148B31761EA37445A51200 /* Products */;
+			productRefGroup = 0388F7B24BCF2FC37689CBAAEA10F98D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6381CE497E9AD1CC31876E2A944F9C95 /* Pods-Météo Paris */,
-				C2FB8D63DC95C0915230472E4BE8FC44 /* Pods-Météo ParisTests */,
-				B2FD64000B3057F79274A1B66B4A6E83 /* Pods-Météo ParisUITests */,
-				9C21E162FDB63A48224DD5EFC1E2A4C5 /* RainyRefreshControl */,
-				0D82475A4B7F6B682B674770CF31D8B7 /* RainyRefreshControl-RainyRefreshControl */,
-				14A7787D2E7A8C61A1FBD7D591EE588C /* SwiftyJSON */,
-				07EC25BEE8241228F8E8D8F8DB55FD9D /* SwiftyTimer */,
+				4981A5A901657C421F9A51A3B017D2B9 /* Pods-Meteo Paris */,
+				F3214C71CF31EA3DD47521158DDAD495 /* Pods-Meteo ParisTests */,
+				422943286CD7A11CB1404C16C5D0DF75 /* Pods-Meteo ParisUITests */,
+				6E8803546677AF16E58BF7577F01C8EB /* RainyRefreshControl */,
+				1FCA8A4B800B02ED839BF6A846B4C7AD /* RainyRefreshControl-RainyRefreshControl */,
+				9E9842D82907287A3EA2004EF1F1A32B /* SwiftyJSON */,
+				4CE4EAD100DB19BD57BFFDEC5A742F3A /* SwiftyTimer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4FAA87660061D1CEB58E3217D8E0F449 /* Resources */ = {
+		04D6D9299AF3F67122AE9C5D9BFF4951 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A000A8A16BF6067B87D221A07D528603 /* rain.sks in Resources */,
-				BA2079CF0EC7390B4818FA6E34BE0BDE /* spark.png in Resources */,
+				DB7E68779DB1906FEED4F7DB2D8653E5 /* RainyRefreshControl.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C3AED9B723F8DED90D0B71BE49E7406 /* Resources */ = {
+		3AB30457492B774A3EA601ACDABD4EE3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A35784D4D16A3BCD2802E8979F7F044 /* RainyRefreshControl.bundle in Resources */,
+				4BA4AA6B21ECF89BAAF31C7729595016 /* rain.sks in Resources */,
+				7F124A70DF4D862EF05A831280F8B21D /* spark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1987B82B479A0A13BCCA72E9B8EB0F7D /* Sources */ = {
+		262A32D8C06CE024CC230F11550CDD18 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02791882FF00337A3D9B46CCFC0DCA21 /* ONXRefreshControl.swift in Sources */,
-				9211A7BDFCD1C08121D0915AB7D22A3C /* RainScene.swift in Sources */,
-				861FC0912CBD8FE79D6CEA4A10EB2437 /* RainyRefreshControl-dummy.m in Sources */,
-				24834FEADAD118650BC907617B141D6D /* RainyRefreshControl.swift in Sources */,
-				97E4C6B6AB8C227B2131CFDCC72A963D /* Umbrella.swift in Sources */,
+				BAC6581FAFA78ED9F3B54B0572639F30 /* SwiftyJSON-dummy.m in Sources */,
+				760FDA9EEA1D8BC22974D621D06F8274 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		20BBFDB80580F0B6001012030FF6E6FB /* Sources */ = {
+		2D58CC5E0DDA0242449A3630336167E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E510EF27BC4C1EF89803C01666C5EFB /* Pods-Météo ParisUITests-dummy.m in Sources */,
+				391AA8B58D83BC91AB8045320866DA32 /* Pods-Meteo Paris-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		341421C682272E23C78B7CC58265A5DA /* Sources */ = {
+		387C7B114283B9CAFEC688643D767AEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6E13A63EB1445E40BBDFAEB88E1DBF60 /* SwiftyTimer-dummy.m in Sources */,
-				873D6E0908443E9091640E7D7CB4D870 /* SwiftyTimer.swift in Sources */,
+				BC95E511D514A7C3B2B33C42A6BEE3C1 /* Pods-Meteo ParisUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F7ED3049EE853DB4902D2CAB2F4610A /* Sources */ = {
+		562BE3853F6BE9BD4EA043C95BEB07C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71FA03F069FA28716C72F6C58510DA47 /* Pods-Météo Paris-dummy.m in Sources */,
+				C7ADAB359AB4708956D14137AACA0182 /* SwiftyTimer-dummy.m in Sources */,
+				51B7B8AAFFAF476CD0EA25BBAEE5229C /* SwiftyTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98DFF2F7A1FD314B9C05000D28DE43DA /* Sources */ = {
+		BBB10E71C331BCCB4D9DF9D14B14A1DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF09F204158F85EE1391CA11666227D2 /* SwiftyJSON-dummy.m in Sources */,
-				E0A17D1D0EBDA24B60D08698404EEFD8 /* SwiftyJSON.swift in Sources */,
+				2B6F708ED11608ED7A190A12325DFFCA /* ONXRefreshControl.swift in Sources */,
+				59DE546217CAE912F05A92D1939B26EC /* RainScene.swift in Sources */,
+				8D0652ED12F38D1F88EB55E270822504 /* RainyRefreshControl-dummy.m in Sources */,
+				AEA9D02AF1AB1EC736254705CDF1BBAF /* RainyRefreshControl.swift in Sources */,
+				79662A37EDFCFAA3F5792BE75DA74D5F /* Umbrella.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E9D5467AC2100788365D5B544E143C39 /* Sources */ = {
+		BD5575A31AF9C5317BCC4B2E2E161B42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2277900A8DE928FD808E980AE4D90B8C /* Pods-Meteo ParisTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0B1202E7712EFACE5E9F11823886D63 /* Sources */ = {
+		E897C6586E32B9D189FCB9051FB579E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2482396C2CD45325ADCF5D181751905E /* Pods-Météo ParisTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		662B3B865AB9877764EBCCCA1EBDD7DD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = RainyRefreshControl;
-			target = 9C21E162FDB63A48224DD5EFC1E2A4C5 /* RainyRefreshControl */;
-			targetProxy = CBA73C274B41ED0FD832C560F0600173 /* PBXContainerItemProxy */;
-		};
-		7A6D941B373355F5CB060594C5272995 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "RainyRefreshControl-RainyRefreshControl";
-			target = 0D82475A4B7F6B682B674770CF31D8B7 /* RainyRefreshControl-RainyRefreshControl */;
-			targetProxy = E658A196CA7E43C82BCE6F972ED2C48D /* PBXContainerItemProxy */;
-		};
-		7E05095214A1C54CC488AAADEFDB1A17 /* PBXTargetDependency */ = {
+		3122F577E0C345F1C66FBE8E9B462ADD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyTimer;
-			target = 07EC25BEE8241228F8E8D8F8DB55FD9D /* SwiftyTimer */;
-			targetProxy = 7CA84FC934D69A9650BE6C48B4A914A3 /* PBXContainerItemProxy */;
+			target = 4CE4EAD100DB19BD57BFFDEC5A742F3A /* SwiftyTimer */;
+			targetProxy = D62562FF5F141C69BB51B817813C2812 /* PBXContainerItemProxy */;
 		};
-		8D31E7CF874285D39DE5323C9479E517 /* PBXTargetDependency */ = {
+		A415AD543E8E116159E0C2DC40052F43 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwiftyJSON;
-			target = 14A7787D2E7A8C61A1FBD7D591EE588C /* SwiftyJSON */;
-			targetProxy = 441A7E7F6F66B467FBE24A3176C5BBD8 /* PBXContainerItemProxy */;
+			target = 9E9842D82907287A3EA2004EF1F1A32B /* SwiftyJSON */;
+			targetProxy = 7D5254DE0E09D01A1272A197608F91D1 /* PBXContainerItemProxy */;
+		};
+		B1E55511D640D7060FB083279D8344EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RainyRefreshControl;
+			target = 6E8803546677AF16E58BF7577F01C8EB /* RainyRefreshControl */;
+			targetProxy = 5BDF4A5F94F7615BDF302B22BFDFD0FD /* PBXContainerItemProxy */;
+		};
+		B4E24C59C8F47EDAAA99D93264D4111D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RainyRefreshControl-RainyRefreshControl";
+			target = 1FCA8A4B800B02ED839BF6A846B4C7AD /* RainyRefreshControl-RainyRefreshControl */;
+			targetProxy = DB36C96CD175D7731761752293729225 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		07F075ACD99FFB69211A39C96E0BF4B8 /* Debug */ = {
+		13A4F7B1D4D215F7D2F932F2B0C7505E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B7B46107237684F7188563CE32A0713 /* RainyRefreshControl.xcconfig */;
+			baseConfigurationReference = 354760BF2B09DE6502880B58C33BC7B0 /* SwiftyTimer.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/RainyRefreshControl/RainyRefreshControl-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RainyRefreshControl/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTimer/SwiftyTimer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyTimer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RainyRefreshControl/RainyRefreshControl.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = RainyRefreshControl;
+				MODULEMAP_FILE = "Target Support Files/SwiftyTimer/SwiftyTimer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyTimer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
-		};
-		2D486E10F9F2AF71D39656B90D5C2EF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B7B46107237684F7188563CE32A0713 /* RainyRefreshControl.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RainyRefreshControl";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/RainyRefreshControl/ResourceBundle-RainyRefreshControl-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = RainyRefreshControl;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
 			name = Release;
 		};
-		5FFD546A1CBB84FBCFC4E474FB6912E6 /* Debug */ = {
+		20C0DFD5CB2F276FB5F6CCF483FBC00F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B7B46107237684F7188563CE32A0713 /* RainyRefreshControl.xcconfig */;
 			buildSettings = {
@@ -791,48 +771,81 @@
 			};
 			name = Debug;
 		};
-		8A3A1C7137B1EAAEB22F83C24740C197 /* Debug */ = {
+		2F3756E65BA089AA4963CF5817F00799 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAF49CE190D5E976CCF9C32154B5BA36 /* Pods-Météo ParisUITests.debug.xcconfig */;
+			baseConfigurationReference = 1526862A935E11BCEF4C52DFFEA6F2F7 /* Pods-Meteo Paris.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Météo ParisUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Meteo Paris/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Météo ParisUITests/Pods-Météo ParisUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/Pods-Meteo Paris/Pods-Meteo Paris.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Me_te_o_ParisUITests;
+				PRODUCT_NAME = Pods_Meteo_Paris;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
+		36A33A1467B26C20F50DDE60BEBC3DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6897E44D1A574BDF8FB0983B18B11968 /* Pods-Meteo ParisTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Meteo ParisTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Meteo ParisTests/Pods-Meteo ParisTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Meteo_ParisTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -840,13 +853,10 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -871,55 +881,14 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		9F970D30B811BA5F8D5B090223A8461A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D85399B48C910115E25DC6FFACEE1326 /* Pods-Météo Paris.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Météo Paris/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Météo Paris/Pods-Météo Paris.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Me_te_o_Paris;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A9364F329DE6F9B6F644869328A81537 /* Release */ = {
+		7D3F9266F5221E0276010E73423BBDCA /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B7B46107237684F7188563CE32A0713 /* RainyRefreshControl.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -941,8 +910,6 @@
 				PRODUCT_NAME = RainyRefreshControl;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -950,47 +917,45 @@
 			};
 			name = Release;
 		};
-		B3FCDBA467701A5EE5EA902770786F69 /* Release */ = {
+		98491981FD234E93763E0EB6237EC62F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25AF818150BF875CB5BC198DF6B00669 /* Pods-Météo ParisUITests.release.xcconfig */;
+			baseConfigurationReference = B1CBD6A9E76EC5725385AA1A7B34032A /* Pods-Meteo ParisUITests.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Météo ParisUITests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Meteo ParisUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Météo ParisUITests/Pods-Météo ParisUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MODULEMAP_FILE = "Target Support Files/Pods-Meteo ParisUITests/Pods-Meteo ParisUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Me_te_o_ParisUITests;
+				PRODUCT_NAME = Pods_Meteo_ParisUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		B92AE20C4353621530010988C2679C10 /* Release */ = {
+		A54CE6E74FBE4E0205F9CA4C006DA818 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 354760BF2B09DE6502880B58C33BC7B0 /* SwiftyTimer.xcconfig */;
+			baseConfigurationReference = 50B688FFF30EBF592E83E271F1147609 /* SwiftyJSON.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1002,18 +967,16 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyTimer/SwiftyTimer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyTimer/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyTimer/SwiftyTimer.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftyTimer;
+				PRODUCT_NAME = SwiftyJSON;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1021,12 +984,46 @@
 			};
 			name = Release;
 		};
-		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+		AC3BBF0C4954D0AAA9C312CB73371485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFADEB99C9004F5EF1FE1D5A48E76DF7 /* Pods-Meteo ParisTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Meteo ParisTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Meteo ParisTests/Pods-Meteo ParisTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Meteo_ParisTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -1034,13 +1031,10 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -1065,11 +1059,43 @@
 			};
 			name = Release;
 		};
-		BF5C70C75219568AED31D2F7211CCE5D /* Debug */ = {
+		C32FBC1B9E051891DD24A91B213C1081 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50B688FFF30EBF592E83E271F1147609 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9654344687E019AB9BD489540553FED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 354760BF2B09DE6502880B58C33BC7B0 /* SwiftyTimer.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1091,7 +1117,6 @@
 				PRODUCT_NAME = SwiftyTimer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1100,11 +1125,10 @@
 			};
 			name = Debug;
 		};
-		CA3F4667BC719512F532B506D5135990 /* Debug */ = {
+		CEEB4461E0F41C249E0DC294DFFC5810 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50B688FFF30EBF592E83E271F1147609 /* SwiftyJSON.xcconfig */;
+			baseConfigurationReference = 2B7B46107237684F7188563CE32A0713 /* RainyRefreshControl.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1116,17 +1140,16 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/RainyRefreshControl/RainyRefreshControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RainyRefreshControl/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MODULEMAP_FILE = "Target Support Files/RainyRefreshControl/RainyRefreshControl.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SwiftyJSON;
+				PRODUCT_NAME = RainyRefreshControl;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1135,11 +1158,62 @@
 			};
 			name = Debug;
 		};
-		D15D58945940C2E1857EBC1E986EFED2 /* Debug */ = {
+		D4A824350DB8E0C4D38FFB7874CC42E6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C023ACEBBA0747487195F8CB3BA2EBA /* Pods-Météo ParisTests.debug.xcconfig */;
+			baseConfigurationReference = 2B7B46107237684F7188563CE32A0713 /* RainyRefreshControl.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RainyRefreshControl";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/RainyRefreshControl/ResourceBundle-RainyRefreshControl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = RainyRefreshControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		EEF2A735E75A9E8C7F7F895756234CAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 089BD19AB7B1636D07E211A491E9F4F8 /* Pods-Meteo ParisUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Meteo ParisUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Meteo ParisUITests/Pods-Meteo ParisUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Meteo_ParisUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8154E701D5F7A5A7755B7F3754028BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB16D32D71FA6D4EDEC8FF183BD0BFC0 /* Pods-Meteo Paris.debug.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -1151,170 +1225,44 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Météo ParisTests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Meteo Paris/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Météo ParisTests/Pods-Météo ParisTests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Meteo Paris/Pods-Meteo Paris.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Me_te_o_ParisTests;
+				PRODUCT_NAME = Pods_Meteo_Paris;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		D9F0AEC5A6E1478A23DC4D74B3E54CC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C0FB4B94A2A810F7B05CFDD59AAD70F /* Pods-Météo Paris.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Météo Paris/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Météo Paris/Pods-Météo Paris.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Me_te_o_Paris;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DE8E9AA86385CB5545405A94AC5B1BE6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A70B61A7AA99CCD7F1F5D5F38A7F8169 /* Pods-Météo ParisTests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-Météo ParisTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Météo ParisTests/Pods-Météo ParisTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_Me_te_o_ParisTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F04380FD1BFC712AB11D8021F09D75EB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 50B688FFF30EBF592E83E271F1147609 /* SwiftyJSON.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SwiftyJSON;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0FBC928CC24BECE9E6E20EEB859B5492 /* Build configuration list for PBXNativeTarget "Pods-Météo ParisUITests" */ = {
+		0CC719DA6A37CE0A86EF7BB94A73513C /* Build configuration list for PBXNativeTarget "Pods-Meteo Paris" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8A3A1C7137B1EAAEB22F83C24740C197 /* Debug */,
-				B3FCDBA467701A5EE5EA902770786F69 /* Release */,
+				F8154E701D5F7A5A7755B7F3754028BD /* Debug */,
+				2F3756E65BA089AA4963CF5817F00799 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		123916674CBEC514AA6CE55B45F23D9A /* Build configuration list for PBXNativeTarget "Pods-Météo ParisTests" */ = {
+		19D903D61E436B4ED13291336F0A8F3E /* Build configuration list for PBXNativeTarget "Pods-Meteo ParisTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D15D58945940C2E1857EBC1E986EFED2 /* Debug */,
-				DE8E9AA86385CB5545405A94AC5B1BE6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		18026CD696E1B309E952D3831521D052 /* Build configuration list for PBXNativeTarget "Pods-Météo Paris" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9F970D30B811BA5F8D5B090223A8461A /* Debug */,
-				D9F0AEC5A6E1478A23DC4D74B3E54CC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1C4A8C498D91022198E73EBE32D38861 /* Build configuration list for PBXNativeTarget "RainyRefreshControl-RainyRefreshControl" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5FFD546A1CBB84FBCFC4E474FB6912E6 /* Debug */,
-				2D486E10F9F2AF71D39656B90D5C2EF2 /* Release */,
+				AC3BBF0C4954D0AAA9C312CB73371485 /* Debug */,
+				36A33A1467B26C20F50DDE60BEBC3DF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1322,35 +1270,53 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
-				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		459909CD608F0F51B2F1733057F3E3D6 /* Build configuration list for PBXNativeTarget "RainyRefreshControl" */ = {
+		449BECA5872CBA13557151E291A62194 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				07F075ACD99FFB69211A39C96E0BF4B8 /* Debug */,
-				A9364F329DE6F9B6F644869328A81537 /* Release */,
+				C32FBC1B9E051891DD24A91B213C1081 /* Debug */,
+				A54CE6E74FBE4E0205F9CA4C006DA818 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F5A1F242970037D6B9A073F326C0AA5 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+		55F3170B9FA372FA86DC652E45874978 /* Build configuration list for PBXNativeTarget "RainyRefreshControl" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA3F4667BC719512F532B506D5135990 /* Debug */,
-				F04380FD1BFC712AB11D8021F09D75EB /* Release */,
+				CEEB4461E0F41C249E0DC294DFFC5810 /* Debug */,
+				7D3F9266F5221E0276010E73423BBDCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86013FC4D3DB0E93A67E331F5F4C2545 /* Build configuration list for PBXNativeTarget "SwiftyTimer" */ = {
+		86DFD9CA121FC8983CCACAC4792CEDCC /* Build configuration list for PBXNativeTarget "Pods-Meteo ParisUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF5C70C75219568AED31D2F7211CCE5D /* Debug */,
-				B92AE20C4353621530010988C2679C10 /* Release */,
+				98491981FD234E93763E0EB6237EC62F /* Debug */,
+				EEF2A735E75A9E8C7F7F895756234CAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D39AF82A3F3FF4493628D5499068175 /* Build configuration list for PBXNativeTarget "SwiftyTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9654344687E019AB9BD489540553FED /* Debug */,
+				13A4F7B1D4D215F7D2F932F2B0C7505E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6E4676D24C01E4A55E15AA1B38A42CD /* Build configuration list for PBXNativeTarget "RainyRefreshControl-RainyRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C0DFD5CB2F276FB5F6CCF483FBC00F /* Debug */,
+				D4A824350DB8E0C4D38FFB7874CC42E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
