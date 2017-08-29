@@ -9,7 +9,7 @@ Elle affiche toutes les 3 heures la température, l'humidité, le vent ainsi qu'
 
 ## Les petits +
 
-◦ Miniteur pour éviter de faire des requêtes inutiles à l'API (10 minutes) <br/>
+◦ Minuteur pour éviter de faire des requêtes inutiles à l'API (10 minutes) <br/>
 ◦ Design flat <br/>
 ◦ Cellule de chargement avant l'affichage des premières données <br/>
 ◦ Cellule d'erreur si jamais il y a un problème <br/>
