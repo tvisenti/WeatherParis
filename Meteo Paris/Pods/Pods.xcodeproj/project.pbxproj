@@ -70,46 +70,46 @@
 
 /* Begin PBXFileReference section */
 		0249A9C977E2C510FF1F675627C9C583 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SpriteKit.framework; sourceTree = DEVELOPER_DIR; };
-		059C65EC71930D2BF7ED3D7B7F1E987F /* spark.png */ = {isa = PBXFileReference; includeInIndex = 1; name = spark.png; path = Sources/Assets/spark.png; sourceTree = "<group>"; };
+		059C65EC71930D2BF7ED3D7B7F1E987F /* spark.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = spark.png; path = Sources/Assets/spark.png; sourceTree = "<group>"; };
 		089BD19AB7B1636D07E211A491E9F4F8 /* Pods-Meteo ParisUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Meteo ParisUITests.release.xcconfig"; sourceTree = "<group>"; };
-		0CA74ED67E268CC0F804E57C0976D114 /* Pods-Meteo ParisUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Meteo ParisUITests.modulemap"; sourceTree = "<group>"; };
+		0CA74ED67E268CC0F804E57C0976D114 /* Pods-Meteo ParisUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Meteo ParisUITests.modulemap"; sourceTree = "<group>"; };
 		14E9E141DA6BB46F13B4D4694A9D3E81 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		1526862A935E11BCEF4C52DFFEA6F2F7 /* Pods-Meteo Paris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Meteo Paris.release.xcconfig"; sourceTree = "<group>"; };
 		17BD72B8E5FA68EAE0B2CD5C00FF7404 /* Pods-Meteo ParisUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Meteo ParisUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1977D8F326007DF66AD1FAB33BAB1FDB /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
-		2318EF2DFACB302A7ECF6E67D15C34DE /* RainyRefreshControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RainyRefreshControl.framework; path = RainyRefreshControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1977D8F326007DF66AD1FAB33BAB1FDB /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		2318EF2DFACB302A7ECF6E67D15C34DE /* RainyRefreshControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RainyRefreshControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B7B46107237684F7188563CE32A0713 /* RainyRefreshControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RainyRefreshControl.xcconfig; sourceTree = "<group>"; };
 		2EECBB42C79582AB57839F28F790C07B /* RainyRefreshControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RainyRefreshControl-prefix.pch"; sourceTree = "<group>"; };
 		354760BF2B09DE6502880B58C33BC7B0 /* SwiftyTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyTimer.xcconfig; sourceTree = "<group>"; };
 		3A6C27A60A9013ADE19C241CD0B9D921 /* ONXRefreshControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ONXRefreshControl.swift; path = Sources/ONXRefreshControl.swift; sourceTree = "<group>"; };
-		3F2C193314AFEC3FE219387876F573B4 /* SwiftyTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyTimer.framework; path = SwiftyTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2C193314AFEC3FE219387876F573B4 /* SwiftyTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD089D032424BB67762506555B87E13 /* Pods-Meteo ParisTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Meteo ParisTests-umbrella.h"; sourceTree = "<group>"; };
 		40C7BFE237FFD3BA67F8FEC99E5EE6A6 /* Umbrella.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Umbrella.swift; path = Sources/Umbrella.swift; sourceTree = "<group>"; };
 		428E5AD6D1D3CBF3F599F8FE96DF2617 /* Pods-Meteo ParisUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Meteo ParisUITests-dummy.m"; sourceTree = "<group>"; };
-		49C10EA43ECE31B38CECB11790098858 /* rain.sks */ = {isa = PBXFileReference; includeInIndex = 1; name = rain.sks; path = Sources/Assets/rain.sks; sourceTree = "<group>"; };
+		49C10EA43ECE31B38CECB11790098858 /* rain.sks */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.sks; name = rain.sks; path = Sources/Assets/rain.sks; sourceTree = "<group>"; };
 		505CC9EE0A7C16240C0D9240F9707241 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		50B688FFF30EBF592E83E271F1147609 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		51CA39D7F67889A4106CAEF428ECA6F8 /* Pods-Meteo Paris-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Meteo Paris-resources.sh"; sourceTree = "<group>"; };
-		54E5CCDAFA65C2E85E5BAC8E74536728 /* RainyRefreshControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RainyRefreshControl.modulemap; sourceTree = "<group>"; };
+		54E5CCDAFA65C2E85E5BAC8E74536728 /* RainyRefreshControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RainyRefreshControl.modulemap; sourceTree = "<group>"; };
 		562ECFBD647A64045E0DFBA5198ED71B /* Pods-Meteo ParisUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Meteo ParisUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5B4D4249A819BCCD97A3501EFE3FA6AC /* Pods-Meteo ParisTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Meteo ParisTests-dummy.m"; sourceTree = "<group>"; };
 		5E3079B1E83F369ADC0DFBA11E266961 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61353195D22E646CA4BC129CCD7676A6 /* Pods-Meteo ParisUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Meteo ParisUITests-umbrella.h"; sourceTree = "<group>"; };
-		62AD999EC958D5B4A5722A95F923EAE2 /* RainyRefreshControl.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RainyRefreshControl.bundle; path = RainyRefreshControl.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AD999EC958D5B4A5722A95F923EAE2 /* RainyRefreshControl.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainyRefreshControl.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6897E44D1A574BDF8FB0983B18B11968 /* Pods-Meteo ParisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Meteo ParisTests.release.xcconfig"; sourceTree = "<group>"; };
 		71DAA77282B3D88569CF543E341B0700 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
 		726A6A476A8ED4C8777BB7E0CA47C32F /* Pods-Meteo Paris-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Meteo Paris-dummy.m"; sourceTree = "<group>"; };
 		7386FFE5B7487F4E3D48D8A02C17CDAA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76A33C5CCDD30519EE70B2DF7FB83F1B /* Pods_Meteo_ParisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Meteo_ParisTests.framework; path = "Pods-Meteo ParisTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A33C5CCDD30519EE70B2DF7FB83F1B /* Pods_Meteo_ParisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meteo_ParisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8121A7A453D398A1B3E925DB09A3BA6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		82F65A06242FD1AD493EAB5240C2DBFC /* RainyRefreshControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RainyRefreshControl.swift; path = Sources/RainyRefreshControl.swift; sourceTree = "<group>"; };
-		8922FD9D42F700398C6B4F11880BBDEC /* SwiftyTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyTimer.modulemap; sourceTree = "<group>"; };
+		8922FD9D42F700398C6B4F11880BBDEC /* SwiftyTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyTimer.modulemap; sourceTree = "<group>"; };
 		908DE85029BE9D21718473BB70F50EB9 /* Pods-Meteo Paris-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Meteo Paris-acknowledgements.plist"; sourceTree = "<group>"; };
 		90AFE754F54D1F3AA5198538915EC990 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9442E5742E0D925006CDAE15F00E87D1 /* SwiftyTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTimer-prefix.pch"; sourceTree = "<group>"; };
 		9CA3DD506183B414E99FCA047E0921DE /* RainyRefreshControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RainyRefreshControl-dummy.m"; sourceTree = "<group>"; };
-		9DF081D692BD8CA219EF4CFAC8FC6FA5 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF081D692BD8CA219EF4CFAC8FC6FA5 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E25D73D2959A0E4B47AC9EC3D7B5B80 /* Pods-Meteo Paris-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Meteo Paris-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A618176B3D34263AB730FE9F6A775EFC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB4EA182A8AEF4F22AB95755EE9C4724 /* Pods-Meteo ParisUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Meteo ParisUITests-resources.sh"; sourceTree = "<group>"; };
@@ -125,15 +125,15 @@
 		CB9D378E533B5A89CDCB23DB44126F4D /* SwiftyTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyTimer-umbrella.h"; sourceTree = "<group>"; };
 		D02ECF01A3E7F5A811DDD856EF0B69BD /* Pods-Meteo Paris-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Meteo Paris-umbrella.h"; sourceTree = "<group>"; };
 		D17F7E913DB7F2B91CA1E195F7400A8D /* Pods-Meteo ParisTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Meteo ParisTests-resources.sh"; sourceTree = "<group>"; };
-		D2D80DD25F6FD6AF64C5E849409ECC47 /* Pods-Meteo ParisTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Meteo ParisTests.modulemap"; sourceTree = "<group>"; };
+		D2D80DD25F6FD6AF64C5E849409ECC47 /* Pods-Meteo ParisTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Meteo ParisTests.modulemap"; sourceTree = "<group>"; };
 		D83082DD608E2ADF19E7615E402B3AF3 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		E11E232C363D67141B06296C978579B8 /* Pods-Meteo ParisTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Meteo ParisTests-frameworks.sh"; sourceTree = "<group>"; };
-		E2F84CEDAD899320C4BD9DC89EB4B7AA /* Pods_Meteo_Paris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Meteo_Paris.framework; path = "Pods-Meteo Paris.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F84CEDAD899320C4BD9DC89EB4B7AA /* Pods_Meteo_Paris.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meteo_Paris.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB349AE3E516D2D72CDB5783DEC430A0 /* Pods-Meteo ParisUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Meteo ParisUITests-frameworks.sh"; sourceTree = "<group>"; };
-		F1313849BBC119D5B98AD73A1A071F39 /* Pods-Meteo Paris.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Meteo Paris.modulemap"; sourceTree = "<group>"; };
+		F1313849BBC119D5B98AD73A1A071F39 /* Pods-Meteo Paris.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Meteo Paris.modulemap"; sourceTree = "<group>"; };
 		F13D62A0A9E28CC794F85E5E90638116 /* RainScene.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RainScene.swift; path = Sources/RainScene.swift; sourceTree = "<group>"; };
 		F5934EE23800D80EF30D20B8D4A48002 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F646D4F38F3443433864BF51EA02E660 /* Pods_Meteo_ParisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Meteo_ParisUITests.framework; path = "Pods-Meteo ParisUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F646D4F38F3443433864BF51EA02E660 /* Pods_Meteo_ParisUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Meteo_ParisUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCA7FA45186F6582486335B7162AD32C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FD93821CE15E4E5599815B85A102FCBD /* RainyRefreshControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RainyRefreshControl-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -236,7 +236,6 @@
 				ADB16AEF0F91F2C4D06C1986604A4A99 /* SwiftyTimer.swift */,
 				D3D3562B3950366492F352679850B606 /* Support Files */,
 			);
-			name = SwiftyTimer;
 			path = SwiftyTimer;
 			sourceTree = "<group>";
 		};
@@ -292,7 +291,6 @@
 				14E9E141DA6BB46F13B4D4694A9D3E81 /* SwiftyJSON.swift */,
 				DE953B4BF8D19019C1FFF9EE88DD3847 /* Support Files */,
 			);
-			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -386,7 +384,6 @@
 				CF8090D081C4D17C94A4FADC5CA5E849 /* Resources */,
 				D725C7BC52E0E9EC328CDB5E36573BEC /* Support Files */,
 			);
-			name = RainyRefreshControl;
 			path = RainyRefreshControl;
 			sourceTree = "<group>";
 		};
@@ -585,7 +582,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0940;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -850,20 +847,32 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -1028,19 +1037,31 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -1054,6 +1075,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
