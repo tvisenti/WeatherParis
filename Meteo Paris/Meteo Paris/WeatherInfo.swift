@@ -28,7 +28,7 @@ class WeatherInfo {
         weatherInfo.date = substringDate(fullDate: dt[0])
         
         // Get only hours and minutes
-        weatherInfo.hour = dt[1].substring(to: dt[1].index(dt[1].startIndex, offsetBy: 5))
+        weatherInfo.hour = String(dt[1].prefix(5))
         
         let data = json["weather"].array?.first
         if let tmpMain = data?["main"].stringValue {
@@ -48,19 +48,22 @@ class WeatherInfo {
         return (weatherInfo)
     }
     
+//    let indexDay = fullDate.index(fullDate.startIndex, offsetBy: 8)
+//    tmpDate = fullDate.substring(from: indexDay)
+//
+//    let start = fullDate.index(fullDate.startIndex, offsetBy: 5)
+//    let end = fullDate.index(fullDate.endIndex, offsetBy: -3)
+//    let range = start..<end
+//    tmpDate += "/" + fullDate.substring(with: range)
+    
     // Reverse date for french reading
     func substringDate(fullDate : String) -> String {
-        var tmpDate : String = ""
         
-        let indexDay = fullDate.index(fullDate.startIndex, offsetBy: 8)
-        tmpDate = fullDate.substring(from: indexDay)
+        let indexDay = fullDate.suffix(5)
+        let month = indexDay.prefix(2)
+        let day = indexDay.suffix(2)
         
-        let start = fullDate.index(fullDate.startIndex, offsetBy: 5)
-        let end = fullDate.index(fullDate.endIndex, offsetBy: -3)
-        let range = start..<end
-        tmpDate += "/" + fullDate.substring(with: range)
-        
-        return tmpDate
+        return day + "/" + month
     }
     
     func transformToURL(icon : String) -> String {
