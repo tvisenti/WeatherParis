@@ -48,14 +48,6 @@ class WeatherInfo {
         return (weatherInfo)
     }
     
-//    let indexDay = fullDate.index(fullDate.startIndex, offsetBy: 8)
-//    tmpDate = fullDate.substring(from: indexDay)
-//
-//    let start = fullDate.index(fullDate.startIndex, offsetBy: 5)
-//    let end = fullDate.index(fullDate.endIndex, offsetBy: -3)
-//    let range = start..<end
-//    tmpDate += "/" + fullDate.substring(with: range)
-    
     // Reverse date for french reading
     func substringDate(fullDate : String) -> String {
         
